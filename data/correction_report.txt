@@ -1,0 +1,7 @@
+Units changed by the annotator: 4/63 (6.3 %)
+Entities: pre-annotated 257, final 257
+  kept 257 | retyped 0 | deleted 0 | added 0
+  correction rate = (retyped + deleted + added) / final = 0.0 %
+Relations: pre-annotated 115, final 115
+  kept 112 | deleted 3 | added 3
+  correction rate = (deleted + added) / final = 5.2 %

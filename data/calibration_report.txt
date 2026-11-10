@@ -1,0 +1,4 @@
+Rules: {1: 'A2', 2: 'A1'}
+Decisions applied: 28
+dev: 16 units, 59 entities {'LEGAL_REF': 17, 'PRODUCT': 14, 'LABEL_ITEM': 13, 'PARAMETER': 5, 'VALUE': 4, 'ACTOR': 3, 'PROCESS': 3}, 27 relations {'REFERS_TO': 13, 'OBLIGATION': 5, 'LIMIT': 5, 'PERMISSION': 2, 'PROHIBITION': 1, 'CONDITION': 1}
+test: 47 units, 216 entities {'PRODUCT': 47, 'LABEL_ITEM': 45, 'LEGAL_REF': 40, 'PARAMETER': 36, 'VALUE': 35, 'ACTOR': 7, 'PROCESS': 6}, 108 relations {'REFERS_TO': 38, 'LIMIT': 30, 'PERMISSION': 18, 'OBLIGATION': 11, 'CONDITION': 9, 'PROHIBITION': 2}

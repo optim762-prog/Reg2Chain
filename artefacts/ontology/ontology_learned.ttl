@@ -1,0 +1,957 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix r2c: <http://example.org/reg2chain/olive-oil#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+r2c:Acidity a owl:Class ;
+    rdfs:label "Acidity (%)"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:BlendConcerned a owl:Class ;
+    rdfs:label "blend concerned"@en ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:BlendOfOliveOilsNotOfEuropeanUnionOrigin a owl:Class ;
+    rdfs:label "‘blend of olive oils not of European Union origin’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:BlendOfOliveOilsOfEuropeanUnionOrigin a owl:Class ;
+    rdfs:label "‘blend of olive oils of European Union origin’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:BlendOfOliveOilsOfEuropeanUnionOriginAndNotOfEuropeanUnionOrigin a owl:Class ;
+    rdfs:label "‘blend of olive oils of European Union origin and not of European Union origin’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:BlendOfVegetableOilsOrTheSpecificNamesOfTheVegetableOilsConcernedAndOliveOil a owl:Class ;
+    rdfs:label "‘Blend of vegetable oils (or the specific names of the vegetable oils concerned) and olive oil’"@en ;
+    rdfs:subClassOf r2c:OliveOil .
+
+r2c:BlendWithOtherVegetableOils a owl:Class ;
+    rdfs:label "blend with other vegetable oils"@en ;
+    rdfs:subClassOf r2c:Oils .
+
+r2c:BlendsOfOliveOils a owl:Class ;
+    rdfs:label "blends of olive oils"@en ;
+    rdfs:subClassOf r2c:OliveOils .
+
+r2c:CategoryOfOil a owl:Class ;
+    rdfs:label "category of oil"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:CharacteristicsOfOliveOils a owl:Class ;
+    rdfs:label "characteristics of olive oils"@en ;
+    r2c:refersTo r2c:Ref_AnnexI,
+        r2c:Ref_CommissionImplementingRegulationEU202221 ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:ColdExtraction a owl:Class ;
+    rdfs:label "‘cold extraction’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ConsumptionInRestaurantsHospitalsCanteensAndOtherSimilarCollectiveEstablishments a owl:Class ;
+    rdfs:label "consumption in restaurants, hospitals, canteens and other similar collective establishments"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:Container a owl:Class ;
+    rdfs:label "container"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:DescriptionOfTheOils a owl:Class ;
+    rdfs:label "description of the oils"@en ;
+    r2c:refersTo r2c:Ref_Article1PointB,
+        r2c:Ref_Article22PointNOfRegulationEUNo11692011 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ExtraVirginOliveOilObtainedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcernedFromOlivesHarvestedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcerned a owl:Class ;
+    rdfs:label "‘(extra) virgin olive oil obtained in (the Union or the name of the Member State or third country concerned) from olives harvested in (the Union or the name of the Member State or third country concerned)’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ExtraVirginOrVirginOliveOils a owl:Class ;
+    rdfs:label "extra virgin or virgin olive oils"@en ;
+    rdfs:subClassOf r2c:VirginOliveOil .
+
+r2c:Fats a owl:Class ;
+    rdfs:label "fats"@en ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:FattyAcidEthylEstersMgKg a owl:Class ;
+    rdfs:label "Fatty acid ethyl esters (mg/kg)"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:FinalConsumer a owl:Class ;
+    rdfs:label "final consumer"@en ;
+    rdfs:subClassOf r2c:Actor .
+
+r2c:FirstColdPressing a owl:Class ;
+    rdfs:label "‘first cold pressing’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:FirstMechanicalPressing a owl:Class ;
+    rdfs:label "first mechanical pressing"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:FruityMedianMf a owl:Class ;
+    rdfs:label "Fruity median (Mf)"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:GeographicalArea a owl:Class ;
+    rdfs:label "geographical area"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:HydraulicPresses a owl:Class ;
+    rdfs:label "hydraulic presses"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:InternalConsumption a owl:Class ;
+    rdfs:label "internal consumption"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:K232 a owl:Class ;
+    rdfs:label "K232"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:K268OrK270 a owl:Class ;
+    rdfs:label "K268 or K270"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:Label a owl:Class ;
+    rdfs:label "label"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:LabelOfThoseOils a owl:Class ;
+    rdfs:label "label of those oils"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:LegalName a owl:Class ;
+    rdfs:label "legal name"@en ;
+    r2c:refersTo r2c:Ref_Article61 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ListOfIngredients a owl:Class ;
+    rdfs:label "list of ingredients"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Marketing a owl:Class ;
+    rdfs:label "marketing"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:MarketingOnTheirTerritory a owl:Class ;
+    rdfs:label "marketing on their territory"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:MedianOfDefectMd a owl:Class ;
+    rdfs:label "Median of defect (Md)"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:MemberState a owl:Class ;
+    rdfs:label "Member State"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:MemberStateOrTheUnion a owl:Class ;
+    rdfs:label "Member State or the Union"@en ;
+    rdfs:subClassOf r2c:Union .
+
+r2c:Mill a owl:Class ;
+    rdfs:label "mill"@en ;
+    rdfs:subClassOf r2c:Actor .
+
+r2c:MillWhereTheOilWasExtractedFromTheOlivesIsSituated a owl:Class ;
+    rdfs:label "mill where the oil was extracted from the olives is situated"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:MonthOfTheExtractionOfTheOilFromTheOlives a owl:Class ;
+    rdfs:label "month of the extraction of the oil from the olives"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:NameOfTheFood a owl:Class ;
+    rdfs:label "name of the food"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OilComprisingExclusivelyOilsObtainedByProcessingOlivePomaceAndOilsObtainedDirectlyFromOlives a owl:Class ;
+    rdfs:label "‘oil comprising exclusively oils obtained by processing olive pomace and oils obtained directly from olives’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OilComprisingExclusivelyOilsObtainedByTreatingTheProductObtainedAfterTheExtractionOfOliveOilAndOilsObtainedDirectlyFromOlives a owl:Class ;
+    rdfs:label "‘oil comprising exclusively oils obtained by treating the product obtained after the extraction of olive oil and oils obtained directly from olives’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OilComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives a owl:Class ;
+    rdfs:label "‘oil comprising exclusively olive oils that have undergone refining and oils obtained directly from olives’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils a owl:Class ;
+    rdfs:label "olive oil composed of refined olive oils and virgin olive oils"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint3OfAnnexVIIToRegulationEUNo ;
+    rdfs:subClassOf r2c:VirginOliveOil .
+
+r2c:OlivesWereHarvested a owl:Class ;
+    rdfs:label "olives were harvested"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:OpeningSystem a owl:Class ;
+    rdfs:label "opening system"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:PercentageOfAddedOils a owl:Class ;
+    rdfs:label "percentage of added oils"@en ;
+    r2c:refersTo r2c:Ref_Article1PointB ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:PercentageOfSuchOilsInTheBlend a owl:Class ;
+    rdfs:label "percentage of such oils in the blend"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:PercolationOrCentrifugationOfTheOlivePaste a owl:Class ;
+    rdfs:label "percolation or centrifugation of the olive paste"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:PeroxideValueMEqO2Kg a owl:Class ;
+    rdfs:label "Peroxide value (mEq O2/kg)"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:PrincipalFieldOfVision a owl:Class ;
+    rdfs:label "principal field of vision"@en ;
+    r2c:refersTo r2c:Ref_Article22PointLOfRegulationEUNo11692011 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ProtectedDesignationOfOriginOrAProtectedGeographicalIndication a owl:Class ;
+    rdfs:label "protected designation of origin or a protected geographical indication"@en ;
+    r2c:refersTo r2c:Ref_RegulationEUNo11512012 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:R001 a r2c:Obligation ;
+    r2c:appliesTo r2c:OliveOils ;
+    r2c:concerns r2c:CharacteristicsSetOut ;
+    r2c:sourceProvision "Article 2(1)" .
+
+r2c:R002 a r2c:Permission ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:BlendsOfOliveOilAndOtherVegetableOils ;
+    r2c:sourceProvision "Article 3(1)" .
+
+r2c:R003 a r2c:Permission ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:OtherFoodstuffs ;
+    r2c:sourceProvision "Article 3(2)" .
+
+r2c:R004 a r2c:Permission ;
+    r2c:appliesTo r2c:MemberStates ;
+    r2c:concerns r2c:ProductionOnTheirTerritory ;
+    r2c:sourceProvision "Article 3(3)" .
+
+r2c:R005 a r2c:Obligation ;
+    r2c:appliesTo r2c:Ref_Articles6To9 ;
+    r2c:concerns r2c:LabellingOfParticulars ;
+    r2c:sourceProvision "Article 5(1)" .
+
+r2c:R006 a r2c:Permission ;
+    r2c:appliesTo r2c:Ref_Articles1011And12 ;
+    r2c:concerns r2c:LabellingOfParticulars ;
+    r2c:sourceProvision "Article 5(3)" .
+
+r2c:R007 a r2c:Obligation ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:InformationOnTheSpecialStorageConditions ;
+    r2c:onParameter "namely that they must be stored away from light and heat" ;
+    r2c:sourceProvision "Article 7" .
+
+r2c:R008 a r2c:Obligation ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:concerns r2c:PlaceOfOrigin ;
+    r2c:sourceProvision "Article 8(1)" .
+
+r2c:R009 a r2c:Prohibition ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:PlaceOfOrigin ;
+    r2c:sourceProvision "Article 8(2)" .
+
+r2c:R010 a r2c:Prohibition ;
+    r2c:appliesTo r2c:NamesOfBrandsOrFirms ;
+    r2c:concerns r2c:PlaceOfOrigin ;
+    r2c:sourceProvision "Article 8(4)" .
+
+r2c:R011 a r2c:Obligation ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:AlphanumericIdentificationOfThePackagingPlant ;
+    r2c:sourceProvision "Article 9" .
+
+r2c:R012 a r2c:Permission ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:OptionalReservedTerms ;
+    r2c:sourceProvision "Article 10" .
+
+r2c:R013 a r2c:Permission ;
+    r2c:appliesTo r2c:IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell ;
+    r2c:concerns r2c:ExtraVirginAndVirginOliveOils ;
+    r2c:sourceProvision "Article 10, point (c)" .
+
+r2c:R014 a r2c:Condition ;
+    r2c:appliesTo r2c:IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability ;
+    r2c:concerns r2c:MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption ;
+    r2c:sourceProvision "Article 10, point (d)" .
+
+r2c:R015 a r2c:Permission ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:concerns r2c:HarvestingYear ;
+    r2c:sourceProvision "Article 11(1)" .
+
+r2c:R016 a r2c:Permission ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:concerns r2c:HarvestingYear ;
+    r2c:sourceProvision "Article 11(1)" .
+
+r2c:R017 a r2c:Permission ;
+    r2c:appliesTo r2c:MemberStates ;
+    r2c:concerns r2c:Production ;
+    r2c:sourceProvision "Article 11(3)" .
+
+r2c:R018 a r2c:Permission ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:ImagesOrGraphics ;
+    r2c:sourceProvision "Article 12(2)" .
+
+r2c:R019 a r2c:Condition ;
+    r2c:appliesTo r2c:ImagesOrGraphics ;
+    r2c:sourceProvision "Article 12(2)" ;
+    r2c:thresholdValue "more than 50 %"^^xsd:string .
+
+r2c:R020 a r2c:Prohibition ;
+    r2c:appliesTo r2c:SolidFoodstuffsPreservedExclusivelyInOliveOil ;
+    r2c:concerns r2c:PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff ;
+    r2c:sourceProvision "Article 12(3)" .
+
+r2c:R021 a r2c:Prohibition ;
+    r2c:appliesTo r2c:Oils ;
+    r2c:concerns r2c:PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff ;
+    r2c:sourceProvision "Article 12(3)" .
+
+r2c:R022 a r2c:Permission ;
+    r2c:appliesTo r2c:Foodstuff ;
+    r2c:concerns r2c:PercentageOfFats ;
+    r2c:sourceProvision "Article 12(4)" .
+
+r2c:R023 a r2c:Obligation ;
+    r2c:appliesTo r2c:OlivePomaceOil ;
+    r2c:concerns r2c:OlivePomaceOil2 ;
+    r2c:sourceProvision "Article 12(5)" .
+
+r2c:R024 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 0,80"^^xsd:string .
+
+r2c:R025 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 20,0"^^xsd:string .
+
+r2c:R026 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "K232" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 2,50"^^xsd:string .
+
+r2c:R027 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 0,22"^^xsd:string .
+
+r2c:R028 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 0,01"^^xsd:string .
+
+r2c:R029 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "Median of defect (Md)" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "= 0,0"^^xsd:string .
+
+r2c:R030 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "Fruity median (Mf)" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "> 0,0"^^xsd:string .
+
+r2c:R031 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:ExtraVirginOliveOil ;
+    r2c:onParameter "Fatty acid ethyl esters (mg/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 1" ;
+    r2c:thresholdValue "≤ 35"^^xsd:string .
+
+r2c:R032 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 2,0"^^xsd:string .
+
+r2c:R033 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 20,0"^^xsd:string .
+
+r2c:R034 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "K232" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 2,60"^^xsd:string .
+
+r2c:R035 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 0,25"^^xsd:string .
+
+r2c:R036 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 0,01"^^xsd:string .
+
+r2c:R037 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "Median of defect (Md)" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "≤ 3,5"^^xsd:string .
+
+r2c:R038 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:VirginOliveOil ;
+    r2c:onParameter "Fruity median (Mf)" ;
+    r2c:sourceProvision "Annex I, Table A, row 2" ;
+    r2c:thresholdValue "> 0,0"^^xsd:string .
+
+r2c:R039 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:LampanteOliveOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 3" ;
+    r2c:thresholdValue "> 2,0"^^xsd:string .
+
+r2c:R040 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:LampanteOliveOil ;
+    r2c:onParameter "Median of defect (Md)" ;
+    r2c:sourceProvision "Annex I, Table A, row 3" ;
+    r2c:thresholdValue "> 3,5"^^xsd:string .
+
+r2c:R041 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOliveOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 4" ;
+    r2c:thresholdValue "≤ 0,30"^^xsd:string .
+
+r2c:R042 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOliveOil ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 4" ;
+    r2c:thresholdValue "≤ 5,0"^^xsd:string .
+
+r2c:R043 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOliveOil ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 4" ;
+    r2c:thresholdValue "≤ 1,25"^^xsd:string .
+
+r2c:R044 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOliveOil ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 4" ;
+    r2c:thresholdValue "≤ 0,16"^^xsd:string .
+
+r2c:R045 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OliveOilComposedOfRefinedOliveOilAndVirginOliveOils ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 5" ;
+    r2c:thresholdValue "≤ 1,00"^^xsd:string .
+
+r2c:R046 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OliveOilComposedOfRefinedOliveOilAndVirginOliveOils ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 5" ;
+    r2c:thresholdValue "≤ 15,0"^^xsd:string .
+
+r2c:R047 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OliveOilComposedOfRefinedOliveOilAndVirginOliveOils ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 5" ;
+    r2c:thresholdValue "≤ 1,15"^^xsd:string .
+
+r2c:R048 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OliveOilComposedOfRefinedOliveOilAndVirginOliveOils ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 5" ;
+    r2c:thresholdValue "≤ 0,15"^^xsd:string .
+
+r2c:R049 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:CrudeOlivePomaceOil ;
+    r2c:sourceProvision "Annex I, Table A, row 6" ;
+    r2c:thresholdValue "no limits set"^^xsd:string .
+
+r2c:R050 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOlivePomaceOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 7" ;
+    r2c:thresholdValue "≤ 0,30"^^xsd:string .
+
+r2c:R051 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOlivePomaceOil ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 7" ;
+    r2c:thresholdValue "≤ 5,0"^^xsd:string .
+
+r2c:R052 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOlivePomaceOil ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 7" ;
+    r2c:thresholdValue "≤ 2,00"^^xsd:string .
+
+r2c:R053 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:RefinedOlivePomaceOil ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 7" ;
+    r2c:thresholdValue "≤ 0,20"^^xsd:string .
+
+r2c:R054 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OlivePomaceOil ;
+    r2c:onParameter "Acidity (%)" ;
+    r2c:sourceProvision "Annex I, Table A, row 8" ;
+    r2c:thresholdValue "≤ 1,00"^^xsd:string .
+
+r2c:R055 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OlivePomaceOil ;
+    r2c:onParameter "Peroxide value (mEq O2/kg)" ;
+    r2c:sourceProvision "Annex I, Table A, row 8" ;
+    r2c:thresholdValue "≤ 15,0"^^xsd:string .
+
+r2c:R056 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OlivePomaceOil ;
+    r2c:onParameter "K268 or K270" ;
+    r2c:sourceProvision "Annex I, Table A, row 8" ;
+    r2c:thresholdValue "≤ 1,70"^^xsd:string .
+
+r2c:R057 a r2c:QualityLimit ;
+    r2c:appliesTo r2c:OlivePomaceOil ;
+    r2c:onParameter "ΔK" ;
+    r2c:sourceProvision "Annex I, Table A, row 8" ;
+    r2c:thresholdValue "≤ 0,18"^^xsd:string .
+
+r2c:Ref_AnnexIIIToThisRegulation a r2c:LegalReference ;
+    rdfs:label "Annex III to this Regulation"@en .
+
+r2c:Ref_AnnexIIToThisRegulation a r2c:LegalReference ;
+    rdfs:label "Annex II to this Regulation"@en .
+
+r2c:Ref_AnnexIPoint5OfCommissionImplementingRegu a r2c:LegalReference ;
+    rdfs:label "Annex I, point 5, of Commission Implementing Regulation (EU) 2022/2105"@en .
+
+r2c:Ref_Article6 a r2c:LegalReference ;
+    rdfs:label "Article 6"@en .
+
+r2c:Ref_Article6OfCommissionImplementingRegulati a r2c:LegalReference ;
+    rdfs:label "Article 6 of Commission Implementing Regulation (EU) 2022/2105"@en .
+
+r2c:Ref_Article6PointFOfRegulationEUNo13082013 a r2c:LegalReference ;
+    rdfs:label "Article 6, point (f), of Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_CouncilRegulationECNo4094 a r2c:LegalReference ;
+    rdfs:label "Council Regulation (EC) No 40/94"@en .
+
+r2c:Ref_CouncilRegulationsEECNo21368912AndEECNo1 a r2c:LegalReference ;
+    rdfs:label "Council Regulations (EEC) No 2136/89 (12) and (EEC) No 1536/92 (13)"@en .
+
+r2c:Ref_DelegatedRegulationEU20171183 a r2c:LegalReference ;
+    rdfs:label "Delegated Regulation (EU) 2017/1183"@en .
+
+r2c:Ref_Directive89104 a r2c:LegalReference ;
+    rdfs:label "Directive 89/104"@en .
+
+r2c:Ref_Paragraph3 a r2c:LegalReference ;
+    rdfs:label "paragraph 3"@en .
+
+r2c:Ref_Paragraphs1And3OfThisArticle a r2c:LegalReference ;
+    rdfs:label "paragraphs 1 and 3 of this Article"@en .
+
+r2c:Ref_Paragraphs6And7 a r2c:LegalReference ;
+    rdfs:label "paragraphs 6 and 7"@en .
+
+r2c:Ref_Point2OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 2 of Tables A and B of Annex I to this Regulation"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN,
+        r2c:VirginOliveOil .
+
+r2c:Ref_Point3OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 3 of Tables A and B of Annex I to this Regulation"@en ;
+    r2c:refersTo r2c:LampanteOliveOil .
+
+r2c:Ref_Point5OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 5 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_RegulationAndToCommissionImplementingReg a r2c:LegalReference ;
+    rdfs:label "Regulation and to Commission Implementing Regulation (EU) 2022/2105"@en .
+
+r2c:Ref_RegulationEECNo256891AndImplementingRegu a r2c:LegalReference ;
+    rdfs:label "Regulation (EEC) No 2568/91 and Implementing Regulation (EU) No 29/2012"@en .
+
+r2c:Ref_ThisRegulation a r2c:LegalReference ;
+    rdfs:label "this Regulation"@en .
+
+r2c:SuchBlendsComingFromOtherCountries a owl:Class ;
+    rdfs:label "such blends coming from other countries"@en ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:SuchBlendsForMarketingInAnotherMemberStateOrForExportation a owl:Class ;
+    rdfs:label "such blends for marketing in another Member State or for exportation"@en ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans a owl:Class ;
+    rdfs:label "‘superior category olive oil obtained directly from olives and solely by mechanical means’"@en ;
+    rdfs:subClassOf r2c:OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans .
+
+r2c:ThirdCountry a owl:Class ;
+    rdfs:label "third country"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Threshold a owl:Class .
+
+r2c:appliesTo a owl:ObjectProperty .
+
+r2c:concerns a owl:ObjectProperty .
+
+r2c:hasCondition a owl:ObjectProperty .
+
+r2c:hasLimit a owl:ObjectProperty .
+
+r2c:hasObligation a owl:ObjectProperty .
+
+r2c:hasPermission a owl:ObjectProperty .
+
+r2c:hasProhibition a owl:ObjectProperty .
+
+r2c:onParameter a owl:ObjectProperty .
+
+r2c:provisionText a owl:DatatypeProperty .
+
+r2c:refersTo a owl:ObjectProperty .
+
+r2c:sourceProvision a owl:DatatypeProperty .
+
+r2c:thresholdValue a owl:DatatypeProperty .
+
+r2c:ΔK a owl:Class ;
+    rdfs:label "ΔK"@en ;
+    rdfs:subClassOf r2c:QualityParameter .
+
+r2c:AlphanumericIdentificationOfThePackagingPlant a owl:Class ;
+    rdfs:label "alphanumeric identification of the packaging plant"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:BlendsOfOliveOilAndOtherVegetableOils a owl:Class ;
+    rdfs:label "blends of olive oil and other vegetable oils"@en ;
+    r2c:refersTo r2c:Ref_Paragraph1 ;
+    rdfs:subClassOf r2c:Oils .
+
+r2c:CharacteristicsSetOut a owl:Class ;
+    rdfs:label "characteristics set out"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:CrudeOlivePomaceOil a owl:Class ;
+    rdfs:label "crude olive-pomace oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint4OfAnnexVIIToRegulationEUNo,
+        r2c:Ref_Point6OfTablesAAndBOfAnnexIToThisRegulat ;
+    rdfs:subClassOf r2c:OlivePomaceOil .
+
+r2c:ExtraVirginAndVirginOliveOils a owl:Class ;
+    rdfs:label "extra virgin and virgin olive oils"@en ;
+    rdfs:subClassOf r2c:VirginOliveOil .
+
+r2c:IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability a owl:Class ;
+    rdfs:label "indication of the maximum acidity expected by the date of minimum durability"@en ;
+    r2c:refersTo r2c:Ref_Article91PointFOfRegulationEUNo11692011 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell a owl:Class ;
+    rdfs:label "indications of organoleptic characteristics referring to taste or smell"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:InformationOnTheSpecialStorageConditions a owl:Class ;
+    rdfs:label "Information on the special storage conditions"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption a owl:Class ;
+    rdfs:label "maximum values for peroxide, wax content and ultraviolet absorption"@en ;
+    r2c:refersTo r2c:Ref_CommissionImplementingRegulationEU202221 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:MonthAndTheYearOfTheHarvest a owl:Class ;
+    rdfs:label "month and the year of the harvest"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:NamesOfBrandsOrFirms a owl:Class ;
+    rdfs:label "names of brands or firms"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OliveOil a owl:Class ;
+    rdfs:label "‘olive oil’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans a owl:Class ;
+    rdfs:label "‘olive oil obtained directly from olives and solely by mechanical means’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OlivePomaceOil2 a owl:Class ;
+    rdfs:label "‘olive-pomace oil’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OptionalReservedTerms a owl:Class ;
+    rdfs:label "optional reserved terms"@en ;
+    r2c:refersTo r2c:Ref_AnnexIXToRegulationEUNo13082013 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:OtherFoodstuffs a owl:Class ;
+    rdfs:label "other foodstuffs"@en ;
+    rdfs:subClassOf r2c:Foodstuff .
+
+r2c:PercentageOfFats a owl:Class ;
+    rdfs:label "‘percentage of fats’"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Production a owl:Class ;
+    rdfs:label "production"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:ProductionOnTheirTerritory a owl:Class ;
+    rdfs:label "production on their territory"@en ;
+    rdfs:subClassOf r2c:Process .
+
+r2c:Ref_AnnexI a r2c:LegalReference ;
+    rdfs:label "Annex I"@en .
+
+r2c:Ref_AnnexIXToRegulationEUNo13082013 a r2c:LegalReference ;
+    rdfs:label "Annex IX to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_Article1PointBInA a r2c:LegalReference ;
+    rdfs:label "Article 1, point (b), in a"@en .
+
+r2c:Ref_Article1PointBOfThisRegulation a r2c:LegalReference ;
+    rdfs:label "Article 1, point (b), of this Regulation"@en .
+
+r2c:Ref_Article22PointLOfRegulationEUNo11692011 a r2c:LegalReference ;
+    rdfs:label "Article 2(2), point (l), of Regulation (EU) No 1169/2011"@en .
+
+r2c:Ref_Article22PointNOfRegulationEUNo11692011 a r2c:LegalReference ;
+    rdfs:label "Article 2(2), point (n), of Regulation (EU) No 1169/2011"@en .
+
+r2c:Ref_Article61 a r2c:LegalReference ;
+    rdfs:label "Article 6(1)"@en .
+
+r2c:Ref_Article81 a r2c:LegalReference ;
+    rdfs:label "Article 8(1)"@en .
+
+r2c:Ref_Article91PointFOfRegulationEUNo11692011 a r2c:LegalReference ;
+    rdfs:label "Article 9(1), point (f), of Regulation (EU) No 1169/2011"@en .
+
+r2c:Ref_Articles59To63OfRegulationEUNo9522013 a r2c:LegalReference ;
+    rdfs:label "Articles 59 to 63 of Regulation (EU) No 952/2013"@en .
+
+r2c:Ref_Paragraph3OfThisArticle a r2c:LegalReference ;
+    rdfs:label "paragraph 3 of this Article"@en .
+
+r2c:Ref_PartVIIIPoint1AOfAnnexVIIToRegulationEUN a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 1(a), of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint1COfAnnexVIIToRegulationEUN a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 1(c), of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint2OfAnnexVIIToRegulationEUNo a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 2, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint3OfAnnexVIIToRegulationEUNo a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 3, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint4OfAnnexVIIToRegulationEUNo a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 4, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint5OfAnnexVIIToRegulationEUNo a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 5, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoint6OfAnnexVIIToRegulationEUNo a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 6, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoints1AAndBAndPoints3And6OfAnne a r2c:LegalReference ;
+    rdfs:label "Part VIII, points 1(a) and (b) and points 3 and 6, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoints1To6OfAnnexVIIToRegulation a r2c:LegalReference ;
+    rdfs:label "Part VIII, points 1 to 6, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoints3And6OfAnnexVIIToRegulatio a r2c:LegalReference ;
+    rdfs:label "Part VIII, points 3 and 6, of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_Point1OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 1 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_Point4OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 4 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_Point6OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 6 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_Point7OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 7 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_Point8OfTablesAAndBOfAnnexIToThisRegulat a r2c:LegalReference ;
+    rdfs:label "point 8 of Tables A and B of Annex I to this Regulation"@en .
+
+r2c:Ref_RegulationEUNo11512012 a r2c:LegalReference ;
+    rdfs:label "Regulation (EU) No 1151/2012"@en .
+
+r2c:SolidFoodstuffsPreservedExclusivelyInOliveOil a owl:Class ;
+    rdfs:label "solid foodstuffs preserved exclusively in olive oil"@en ;
+    rdfs:subClassOf r2c:OliveOils .
+
+r2c:Union a owl:Class ;
+    rdfs:label "Union"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Condition a owl:Class ;
+    rdfs:subClassOf r2c:ComplianceRule .
+
+r2c:Foodstuff a owl:Class ;
+    rdfs:label "foodstuff"@en ;
+    r2c:refersTo r2c:Ref_Paragraph3OfThisArticle ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:HarvestingYear a owl:Class ;
+    rdfs:label "harvesting year"@en ;
+    r2c:refersTo r2c:MonthAndTheYearOfTheHarvest ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:ImagesOrGraphics a owl:Class ;
+    rdfs:label "images or graphics"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:LabellingOfParticulars a owl:Class ;
+    rdfs:label "labelling of particulars"@en ;
+    r2c:refersTo r2c:Ref_Articles1011And12,
+        r2c:Ref_Articles6To9 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:MemberStates a owl:Class ;
+    rdfs:label "Member States"@en ;
+    rdfs:subClassOf r2c:Actor .
+
+r2c:PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff a owl:Class ;
+    rdfs:label "percentage of oil relative to the total net weight of the foodstuff"@en ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Ref_Articles1011And12 a r2c:LegalReference ;
+    rdfs:label "Articles 10, 11 and 12"@en .
+
+r2c:Ref_Articles6To9 a r2c:LegalReference ;
+    rdfs:label "Articles 6 to 9"@en .
+
+r2c:Ref_CommissionImplementingRegulationEU202221 a r2c:LegalReference ;
+    rdfs:label "Commission Implementing Regulation (EU) 2022/2105"@en .
+
+r2c:Ref_Paragraph1 a r2c:LegalReference ;
+    rdfs:label "paragraph 1"@en .
+
+r2c:Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN a r2c:LegalReference ;
+    rdfs:label "Part VIII, point 1(b), of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati a r2c:LegalReference ;
+    rdfs:label "Part VIII, points 1(a) and (b), of Annex VII to Regulation (EU) No 1308/2013"@en .
+
+r2c:Actor a owl:Class .
+
+r2c:LampanteOliveOil a owl:Class ;
+    rdfs:label "lampante olive oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint1COfAnnexVIIToRegulationEUN ;
+    rdfs:subClassOf r2c:OliveOils .
+
+r2c:PlaceOfOrigin a owl:Class ;
+    rdfs:label "place of origin"@en ;
+    r2c:refersTo r2c:Ref_Article81,
+        r2c:Ref_Articles59To63OfRegulationEUNo9522013,
+        r2c:Ref_Paragraph1 ;
+    rdfs:subClassOf r2c:LabelItem .
+
+r2c:Ref_Article1PointB a r2c:LegalReference ;
+    rdfs:label "Article 1, point (b)"@en .
+
+r2c:OliveOilComposedOfRefinedOliveOilAndVirginOliveOils a owl:Class ;
+    rdfs:label "olive oil composed of refined olive oil and virgin olive oils"@en ;
+    rdfs:subClassOf r2c:VirginOliveOil .
+
+r2c:Prohibition a owl:Class ;
+    rdfs:subClassOf r2c:ComplianceRule .
+
+r2c:RefinedOliveOil a owl:Class ;
+    rdfs:label "refined olive oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint2OfAnnexVIIToRegulationEUNo,
+        r2c:Ref_Point4OfTablesAAndBOfAnnexIToThisRegulat ;
+    rdfs:subClassOf r2c:OliveOils .
+
+r2c:RefinedOlivePomaceOil a owl:Class ;
+    rdfs:label "refined olive-pomace oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint5OfAnnexVIIToRegulationEUNo,
+        r2c:Ref_Point7OfTablesAAndBOfAnnexIToThisRegulat ;
+    rdfs:subClassOf r2c:OlivePomaceOil .
+
+r2c:ComplianceRule a owl:Class .
+
+r2c:Obligation a owl:Class ;
+    rdfs:subClassOf r2c:ComplianceRule .
+
+r2c:OliveOils a owl:Class ;
+    rdfs:label "olive oils"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoints1AAndBAndPoints3And6OfAnne,
+        r2c:Ref_PartVIIIPoints1To6OfAnnexVIIToRegulation ;
+    rdfs:subClassOf r2c:Oils .
+
+r2c:Product a owl:Class .
+
+r2c:OlivePomaceOil a owl:Class ;
+    rdfs:label "olive-pomace oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint6OfAnnexVIIToRegulationEUNo,
+        r2c:Ref_Point8OfTablesAAndBOfAnnexIToThisRegulat ;
+    rdfs:subClassOf r2c:Oils .
+
+r2c:ExtraVirginOliveOil a owl:Class ;
+    rdfs:label "extra virgin olive oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint1AOfAnnexVIIToRegulationEUN,
+        r2c:Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati,
+        r2c:Ref_Point1OfTablesAAndBOfAnnexIToThisRegulat ;
+    rdfs:subClassOf r2c:VirginOliveOil .
+
+r2c:QualityParameter a owl:Class .
+
+r2c:Permission a owl:Class ;
+    rdfs:subClassOf r2c:ComplianceRule .
+
+r2c:Process a owl:Class .
+
+r2c:Oils a owl:Class ;
+    rdfs:label "oils"@en ;
+    r2c:refersTo r2c:Ref_Article1PointB,
+        r2c:Ref_Article1PointBInA,
+        r2c:Ref_Article1PointBOfThisRegulation,
+        r2c:Ref_PartVIIIPoints3And6OfAnnexVIIToRegulatio ;
+    rdfs:subClassOf r2c:Product .
+
+r2c:VirginOliveOil a owl:Class ;
+    rdfs:label "virgin olive oil"@en ;
+    r2c:refersTo r2c:Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN,
+        r2c:Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati ;
+    rdfs:subClassOf r2c:OliveOils .
+
+r2c:QualityLimit a owl:Class ;
+    rdfs:subClassOf r2c:ComplianceRule .
+
+r2c:LabelItem a owl:Class .
+
+r2c:LegalReference a owl:Class .
+

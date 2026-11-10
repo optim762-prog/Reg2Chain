@@ -1,0 +1,2 @@
+llm_test_log.jsonl: 47 responses, 0 not valid JSON; entities proposed 225, kept 211, span not found in text (hallucinated) 5, invalid type 0; relations discarded (argument not an entity / invalid type) 51
+llm_test_gold_ents_log.jsonl: 47 responses, 0 not valid JSON; entities proposed 0, kept 0, span not found in text (hallucinated) 0, invalid type 0; relations discarded (argument not an entity / invalid type) 35

@@ -1,0 +1,24 @@
+{
+ "category": "LampanteOliveOil",
+ "label": "lampante olive oil",
+ "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+ "quality_limits": [],
+ "labelling": {
+  "obligations": [],
+  "permissions": [],
+  "prohibitions": []
+ },
+ "conditions": [
+  {
+   "rule_id": "R039",
+   "type": "CONDITION",
+   "source": "Annex I, Table A, row 3",
+   "condition": "Acidity > 2.0% OR defect median > 3.5 OR fruity median = 0",
+   "condition_id": "Condition_LampanteClassification"
+  }
+ ],
+ "traceability": {
+  "rules": 1,
+  "with_source_provision": 1
+ }
+}

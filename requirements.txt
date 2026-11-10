@@ -1,0 +1,16 @@
+spacy==3.8.*
+en_core_web_sm==3.8.0
+transformers
+accelerate
+bitsandbytes
+torch
+rdflib
+networkx
+neo4j
+openpyxl
+pymupdf
+scipy
+web3[tester]
+slither-analyzer
+solc-select
+# solc-js 0.8.20 (npm install solc@0.8.20) for compilation

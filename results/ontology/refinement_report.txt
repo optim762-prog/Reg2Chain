@@ -1,0 +1,9 @@
+Concepts: 147 learned items | ADD 3, DELETE 18, EDIT 37, KEEP 80, MERGE 12 | learned items corrected: 67/147 (45.6 %), items added by the experts: 3
+Properties: 6 learned items | EDIT 4, KEEP 2 | learned items corrected: 4/6 (66.7 %), items added by the experts: 0
+Rules: 57 learned items | ADD 21, DELETE 7, EDIT 47, KEEP 3 | learned items corrected: 54/57 (94.7 %), items added by the experts: 21
+Rules marked EDIT: {'content corrected': 16, 'enriched only (threshold / condition / comment)': 31}
+Rules linked to their provision: 71/71 (review rows re-aligned on their own source: 0); limit values restored after a spreadsheet formula error: 0
+Concepts introduced implicitly in rules: 4 {'object': 4}
+Structured thresholds: 32, conditions: 10, schema gaps identified: 14
+Experts: Nada Feghali / Jinane Karama (Legal / Ontologist researcher); time: 4h = 240 min
+Refined ontology: 124 concepts, 6 properties, 71 rules (16 with several product categories), 48 refersTo links, 873 OWL triples

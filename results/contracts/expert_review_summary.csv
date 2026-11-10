@@ -1,0 +1,10 @@
+model,condition,contracts,Q1_limits_correct,Q2_labelling_correct,Q5_traceability,Q6_code_quality,security_medium_high,deployable_yes_or_minor,minutes
+deepseek6.7b,C_json_onto,2,4.50,1.00,2.00,2.00,2,0,17.0
+qwen14b,A_text,2,3.50,1.50,1.50,2.00,2,0,18.0
+qwen14b,B_json,2,5.00,3.00,5.00,3.00,2,0,17.0
+qwen14b,C_json_onto,2,5.00,3.00,5.00,3.00,2,0,10.0
+qwen14b,D_json_solidity,2,5.00,3.00,5.00,2.50,2,0,10.0
+qwen7b,A_text,2,3.00,1.50,1.50,3.00,2,0,21.0
+qwen7b,B_json,2,3.00,2.50,2.00,2.50,2,0,15.0
+qwen7b,C_json_onto,2,3.00,2.50,2.00,2.50,2,0,17.0
+qwen7b,D_json_solidity,2,5.00,2.50,2.00,3.00,2,0,10.0

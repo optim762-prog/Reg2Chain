@@ -1,0 +1,11 @@
+model=deepseek6.7b | condition=C_json_onto | contracts=2 | Q1_limits_correct=4.50 | Q2_labelling_correct=1.00 | Q5_traceability=2.00 | Q6_code_quality=2.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=17.0
+model=qwen14b | condition=A_text | contracts=2 | Q1_limits_correct=3.50 | Q2_labelling_correct=1.50 | Q5_traceability=1.50 | Q6_code_quality=2.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=18.0
+model=qwen14b | condition=B_json | contracts=2 | Q1_limits_correct=5.00 | Q2_labelling_correct=3.00 | Q5_traceability=5.00 | Q6_code_quality=3.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=17.0
+model=qwen14b | condition=C_json_onto | contracts=2 | Q1_limits_correct=5.00 | Q2_labelling_correct=3.00 | Q5_traceability=5.00 | Q6_code_quality=3.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=10.0
+model=qwen14b | condition=D_json_solidity | contracts=2 | Q1_limits_correct=5.00 | Q2_labelling_correct=3.00 | Q5_traceability=5.00 | Q6_code_quality=2.50 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=10.0
+model=qwen7b | condition=A_text | contracts=2 | Q1_limits_correct=3.00 | Q2_labelling_correct=1.50 | Q5_traceability=1.50 | Q6_code_quality=3.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=21.0
+model=qwen7b | condition=B_json | contracts=2 | Q1_limits_correct=3.00 | Q2_labelling_correct=2.50 | Q5_traceability=2.00 | Q6_code_quality=2.50 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=15.0
+model=qwen7b | condition=C_json_onto | contracts=2 | Q1_limits_correct=3.00 | Q2_labelling_correct=2.50 | Q5_traceability=2.00 | Q6_code_quality=2.50 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=17.0
+model=qwen7b | condition=D_json_solidity | contracts=2 | Q1_limits_correct=5.00 | Q2_labelling_correct=2.50 | Q5_traceability=2.00 | Q6_code_quality=3.00 | security_medium_high=2 | deployable_yes_or_minor=0 | minutes=10.0
+Agreement expert correctness (mean Q1,Q2) vs automatic test pass rate: Spearman rho = 0.985 (n=18)
+Total expert time: 135 min

@@ -1,0 +1,9 @@
+ExtraVirginOliveOil                                     gold= 8 returned= 9 correct= 8
+VirginOliveOil                                          gold= 7 returned= 8 correct= 7
+LampanteOliveOil                                        gold= 2 returned= 0 correct= 0
+RefinedOliveOil                                         gold= 4 returned= 4 correct= 4
+OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils    gold= 4 returned= 5 correct= 4
+CrudeOlivePomaceOil                                     gold= 0 returned= 0 correct= 0
+RefinedOlivePomaceOil                                   gold= 4 returned= 4 correct= 4
+OlivePomaceOil                                          gold= 5 returned= 5 correct= 4
+ALL quality limits: gold=34 returned=35 correct=31 precision=0.886 recall=0.912 F1=0.899

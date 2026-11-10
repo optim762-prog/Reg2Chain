@@ -1,0 +1,12 @@
+sheet,decision,count
+Concepts,ADD,3
+Concepts,DELETE,18
+Concepts,EDIT,37
+Concepts,KEEP,80
+Concepts,MERGE,12
+Properties,EDIT,4
+Properties,KEEP,2
+Rules,ADD,21
+Rules,DELETE,7
+Rules,EDIT,47
+Rules,KEEP,3

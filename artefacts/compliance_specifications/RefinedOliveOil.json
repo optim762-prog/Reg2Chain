@@ -1,0 +1,57 @@
+{
+ "category": "RefinedOliveOil",
+ "label": "refined olive oil",
+ "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+ "quality_limits": [
+  {
+   "rule_id": "R041",
+   "type": "LIMIT",
+   "source": "Annex I, Table A, row 4",
+   "parameter": "Acidity",
+   "operator": "≤",
+   "value": 0.3,
+   "value_text": "≤ 0,30",
+   "unit": "%"
+  },
+  {
+   "rule_id": "R042",
+   "type": "LIMIT",
+   "source": "Annex I, Table A, row 4",
+   "parameter": "PeroxideValueMEqO2Kg",
+   "operator": "≤",
+   "value": 5.0,
+   "value_text": "≤ 5,0",
+   "unit": "mEq O2/kg"
+  },
+  {
+   "rule_id": "R043",
+   "type": "LIMIT",
+   "source": "Annex I, Table A, row 4",
+   "parameter": "K268OrK270",
+   "operator": "≤",
+   "value": 1.25,
+   "value_text": "≤ 1,25",
+   "unit": "dimensionless"
+  },
+  {
+   "rule_id": "R044",
+   "type": "LIMIT",
+   "source": "Annex I, Table A, row 4",
+   "parameter": "ΔK",
+   "operator": "≤",
+   "value": 0.16,
+   "value_text": "≤ 0,16",
+   "unit": "dimensionless"
+  }
+ ],
+ "labelling": {
+  "obligations": [],
+  "permissions": [],
+  "prohibitions": []
+ },
+ "conditions": [],
+ "traceability": {
+  "rules": 4,
+  "with_source_provision": 4
+ }
+}

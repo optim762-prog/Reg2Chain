@@ -1,0 +1,391 @@
+model,condition,category,run,kind,test,expected,got
+deepseek6.7b,C_json_onto,ExtraVirginOliveOil,1,labelling,all mandatory items,True,False
+deepseek6.7b,C_json_onto,ExtraVirginOliveOil,1,labelling,optional items added,True,False
+deepseek6.7b,C_json_onto,ExtraVirginOliveOil,1,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,all mandatory items,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,optional items added,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,prohibited PlaceOfOrigin,False,True
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,FruityMedianMf @ 10^9,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,K232 @ 10^9,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,all mandatory items,True,False
+deepseek6.7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,OlivePomaceOil,1,limit,PeroxideValueMEqO2Kg ≤ 15.0 @ 15000,True,False
+deepseek6.7b,C_json_onto,OlivePomaceOil,1,labelling,all mandatory items,True,False
+deepseek6.7b,C_json_onto,OlivePomaceOil,1,labelling,optional items added,True,False
+deepseek6.7b,C_json_onto,OlivePomaceOil,1,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing AlphanumericIdentificationOfThePackagingPlant,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing InformationOnTheSpecialStorageConditions,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing LegalName,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing MandatoryLabellingParticulars,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing NonResealableOpeningSystem,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,2,labelling,missing OlivePomaceCategoryInformation,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing AlphanumericIdentificationOfThePackagingPlant,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing InformationOnTheSpecialStorageConditions,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing LegalName,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing MandatoryLabellingParticulars,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing NonResealableOpeningSystem,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,missing OlivePomaceCategoryInformation,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+deepseek6.7b,C_json_onto,OlivePomaceOil,3,labelling,optional items added,True,False
+deepseek6.7b,C_json_onto,RefinedOliveOil,2,labelling,all mandatory items,True,False
+deepseek6.7b,C_json_onto,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,1,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,2,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,3,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+deepseek6.7b,C_json_onto,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False
+deepseek6.7b,C_json_onto,VirginOliveOil,1,limit,DeltaK ≤ 0.01 @ 11,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,2,limit,DeltaK ≤ 0.01 @ 11,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,2,labelling,missing LegalName,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,2,labelling,missing NonResealableOpeningSystem,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,2,labelling,missing OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,2,labelling,missing PlaceOfOrigin,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,3,limit,DeltaK ≤ 0.01 @ 11,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,3,labelling,missing LegalName,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,3,labelling,missing NonResealableOpeningSystem,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,3,labelling,missing OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans,False,True
+deepseek6.7b,C_json_onto,VirginOliveOil,3,labelling,missing PlaceOfOrigin,False,True
+qwen14b,A_text,ExtraVirginOliveOil,1,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,ExtraVirginOliveOil,1,labelling,missing SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans,False,True
+qwen14b,A_text,ExtraVirginOliveOil,1,labelling,optional items added,True,False
+qwen14b,A_text,ExtraVirginOliveOil,2,labelling,missing InformationOnTheSpecialStorageConditions,False,True
+qwen14b,A_text,ExtraVirginOliveOil,2,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,ExtraVirginOliveOil,2,labelling,missing SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans,False,True
+qwen14b,A_text,ExtraVirginOliveOil,2,labelling,optional items added,True,False
+qwen14b,A_text,ExtraVirginOliveOil,3,labelling,missing InformationOnTheSpecialStorageConditions,False,True
+qwen14b,A_text,ExtraVirginOliveOil,3,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,ExtraVirginOliveOil,3,labelling,missing SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans,False,True
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,optional items added,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,no_invented_limit,K232 @ 10^9,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,all mandatory items,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,optional items added,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,isCompliant,compliant batch,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,missing AlphanumericIdentificationOfThePackagingPlant,False,True
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,optional items added,True,False
+qwen14b,A_text,OlivePomaceOil,1,limit,K268OrK270 ≤ 1.7 @ 1700,True,False
+qwen14b,A_text,OlivePomaceOil,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,1,no_invented_limit,K232 @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,1,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen14b,A_text,OlivePomaceOil,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen14b,A_text,OlivePomaceOil,1,labelling,optional items added,True,False
+qwen14b,A_text,OlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen14b,A_text,OlivePomaceOil,2,limit,Acidity ≤ 1.0 @ 1001,False,True
+qwen14b,A_text,OlivePomaceOil,2,limit,PeroxideValueMEqO2Kg ≤ 15.0 @ 15001,False,True
+qwen14b,A_text,OlivePomaceOil,2,limit,K268OrK270 ≤ 1.7 @ 1701,False,True
+qwen14b,A_text,OlivePomaceOil,2,limit,DeltaK ≤ 0.18 @ 181,False,True
+qwen14b,A_text,OlivePomaceOil,2,limit,DeltaK ≤ 0.18 @ 181,False,True
+qwen14b,A_text,OlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen14b,A_text,OlivePomaceOil,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen14b,A_text,OlivePomaceOil,2,labelling,optional items added,True,False
+qwen14b,A_text,OlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen14b,A_text,OlivePomaceOil,3,limit,K268OrK270 ≤ 1.7 @ 1700,True,False
+qwen14b,A_text,OlivePomaceOil,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,3,no_invented_limit,K232 @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen14b,A_text,OlivePomaceOil,3,labelling,missing InformationOnTheSpecialStorageConditions,False,True
+qwen14b,A_text,OlivePomaceOil,3,labelling,missing MandatoryLabellingParticulars,False,True
+qwen14b,A_text,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen14b,A_text,OlivePomaceOil,3,labelling,optional items added,True,False
+qwen14b,A_text,OlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOliveOil,1,no_invented_limit,K232 @ 10^9,True,False
+qwen14b,A_text,RefinedOliveOil,1,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOliveOil,1,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOliveOil,2,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOliveOil,3,no_invented_limit,K232 @ 10^9,True,False
+qwen14b,A_text,RefinedOliveOil,3,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOliveOil,3,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,1,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,1,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,2,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,2,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,3,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,3,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen14b,A_text,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,ExtraVirginOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,A_text,ExtraVirginOliveOil,1,labelling,optional items added,True,False
+qwen7b,A_text,ExtraVirginOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,ExtraVirginOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,A_text,ExtraVirginOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,A_text,ExtraVirginOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,A_text,ExtraVirginOliveOil,3,labelling,optional items added,True,False
+qwen7b,A_text,ExtraVirginOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,limit,K268OrK270 ≤ 1.15 @ 1150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,limit,DeltaK ≤ 0.15 @ 150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,all mandatory items,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,optional items added,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,limit,K268OrK270 ≤ 1.15 @ 1150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,limit,DeltaK ≤ 0.15 @ 150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,all mandatory items,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,optional items added,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,isCompliant,compliant batch,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,limit,K268OrK270 ≤ 1.15 @ 1150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,limit,DeltaK ≤ 0.15 @ 150,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,all mandatory items,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,optional items added,True,False
+qwen7b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,OlivePomaceOil,1,limit,K268OrK270 ≤ 1.7 @ 1700,True,False
+qwen7b,A_text,OlivePomaceOil,1,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,1,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,1,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,1,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen7b,A_text,OlivePomaceOil,1,labelling,optional items added,True,False
+qwen7b,A_text,OlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,OlivePomaceOil,2,limit,K268OrK270 ≤ 1.7 @ 1700,True,False
+qwen7b,A_text,OlivePomaceOil,2,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,2,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,2,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,2,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,2,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen7b,A_text,OlivePomaceOil,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,A_text,OlivePomaceOil,2,labelling,optional items added,True,False
+qwen7b,A_text,OlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen7b,A_text,OlivePomaceOil,3,limit,K268OrK270 ≤ 1.7 @ 1700,True,False
+qwen7b,A_text,OlivePomaceOil,3,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,3,limit,DeltaK ≤ 0.18 @ 180,True,False
+qwen7b,A_text,OlivePomaceOil,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,3,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,OlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen7b,A_text,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,A_text,OlivePomaceOil,3,labelling,optional items added,True,False
+qwen7b,A_text,OlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,RefinedOliveOil,1,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,A_text,RefinedOliveOil,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,1,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,1,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,RefinedOliveOil,2,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,A_text,RefinedOliveOil,2,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,2,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,2,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,A_text,RefinedOliveOil,3,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,A_text,RefinedOliveOil,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,3,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,2,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,2,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,2,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,
+qwen7b,A_text,RefinedOlivePomaceOil,2,isCompliant,one limit violated,False,
+qwen7b,A_text,RefinedOlivePomaceOil,3,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,3,no_invented_limit,K232 @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,3,no_invented_limit,MedianOfDefectMd @ 10^9,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen7b,A_text,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen7b,A_text,VirginOliveOil,1,limit,Acidity ≤ 2.0 @ 2000,True,False
+qwen7b,A_text,VirginOliveOil,1,limit,K232 ≤ 2.6 @ 2600,True,False
+qwen7b,A_text,VirginOliveOil,1,limit,K268OrK270 ≤ 0.25 @ 250,True,False
+qwen7b,A_text,VirginOliveOil,1,limit,MedianOfDefectMd ≤ 3.5 @ 3500,True,False
+qwen7b,A_text,VirginOliveOil,1,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,VirginOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,A_text,VirginOliveOil,1,labelling,optional items added,True,False
+qwen7b,A_text,VirginOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,A_text,VirginOliveOil,2,limit,Acidity ≤ 2.0 @ 2000,True,False
+qwen7b,A_text,VirginOliveOil,2,limit,K232 ≤ 2.6 @ 2600,True,False
+qwen7b,A_text,VirginOliveOil,2,limit,K268OrK270 ≤ 0.25 @ 250,True,False
+qwen7b,A_text,VirginOliveOil,2,limit,MedianOfDefectMd ≤ 3.5 @ 3500,True,False
+qwen7b,A_text,VirginOliveOil,2,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,VirginOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,A_text,VirginOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,A_text,VirginOliveOil,3,limit,Acidity ≤ 2.0 @ 2000,True,False
+qwen7b,A_text,VirginOliveOil,3,limit,K232 ≤ 2.6 @ 2600,True,False
+qwen7b,A_text,VirginOliveOil,3,limit,K268OrK270 ≤ 0.25 @ 250,True,False
+qwen7b,A_text,VirginOliveOil,3,no_invented_limit,FattyAcidEthylEstersMgKg @ 10^9,True,False
+qwen7b,A_text,VirginOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,A_text,VirginOliveOil,3,labelling,optional items added,True,False
+qwen7b,A_text,VirginOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,B_json,ExtraVirginOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,missing LegalName,False,True
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,missing LegalName,False,True
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,missing LegalName,False,True
+qwen7b,B_json,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,OlivePomaceOil,1,labelling,missing LegalName,False,True
+qwen7b,B_json,OlivePomaceOil,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,OlivePomaceOil,2,labelling,missing LegalName,False,True
+qwen7b,B_json,OlivePomaceOil,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,OlivePomaceOil,3,labelling,missing LegalName,False,True
+qwen7b,B_json,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,B_json,RefinedOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,B_json,RefinedOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,B_json,RefinedOliveOil,3,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,B_json,RefinedOliveOil,3,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,B_json,RefinedOliveOil,3,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,B_json,RefinedOliveOil,3,limit,DeltaK ≤ 0.16 @ 160,True,False
+qwen7b,B_json,RefinedOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen7b,B_json,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen7b,B_json,VirginOliveOil,1,labelling,missing PlaceOfOrigin,False,True
+qwen7b,B_json,VirginOliveOil,2,labelling,missing PlaceOfOrigin,False,True
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,Acidity ≤ 0.8 @ 800,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,PeroxideValueMEqO2Kg ≤ 20.0 @ 20000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,K232 ≤ 2.5 @ 2500,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,K268OrK270 ≤ 0.22 @ 220,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,DeltaK ≤ 0.01 @ 10,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,limit,FattyAcidEthylEstersMgKg ≤ 35.0 @ 35000,True,False
+qwen7b,C_json_onto,ExtraVirginOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,OlivePomaceOil,1,labelling,missing LegalName,False,True
+qwen7b,C_json_onto,OlivePomaceOil,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,OlivePomaceOil,2,labelling,missing LegalName,False,True
+qwen7b,C_json_onto,OlivePomaceOil,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,OlivePomaceOil,3,labelling,missing LegalName,False,True
+qwen7b,C_json_onto,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,C_json_onto,RefinedOliveOil,1,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOliveOil,1,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOliveOil,1,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,C_json_onto,RefinedOliveOil,1,limit,DeltaK ≤ 0.16 @ 160,True,False
+qwen7b,C_json_onto,RefinedOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,limit,DeltaK ≤ 0.16 @ 160,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,limit,K268OrK270 ≤ 1.25 @ 1250,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,limit,DeltaK ≤ 0.16 @ 160,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen7b,C_json_onto,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False
+qwen7b,C_json_onto,VirginOliveOil,1,limit,DeltaK ≤ 0.01 @ 11,False,True
+qwen7b,C_json_onto,VirginOliveOil,2,limit,DeltaK ≤ 0.01 @ 11,False,True
+qwen7b,C_json_onto,VirginOliveOil,2,labelling,missing PlaceOfOrigin,False,True
+qwen7b,C_json_onto,VirginOliveOil,3,limit,DeltaK ≤ 0.01 @ 11,False,True
+qwen7b,C_json_onto,VirginOliveOil,3,labelling,missing PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,ExtraVirginOliveOil,3,labelling,missing MandatoryLabellingParticulars,False,True
+qwen7b,D_json_solidity,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,2,isCompliant,compliant batch,True,
+qwen7b,D_json_solidity,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,OlivePomaceOil,1,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,OlivePomaceOil,2,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,OlivePomaceOil,3,labelling,prohibited PlaceOfOrigin,False,True
+qwen7b,D_json_solidity,RefinedOliveOil,1,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOliveOil,1,isCompliant,compliant batch,True,False
+qwen7b,D_json_solidity,RefinedOliveOil,2,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOliveOil,2,isCompliant,compliant batch,True,False
+qwen7b,D_json_solidity,RefinedOliveOil,3,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOliveOil,3,isCompliant,compliant batch,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,limit,K268OrK270 ≤ 2.0 @ 2000,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,1,isCompliant,compliant batch,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,2,limit,Acidity ≤ 0.3 @ 300,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,2,limit,PeroxideValueMEqO2Kg ≤ 5.0 @ 5000,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,2,limit,DeltaK ≤ 0.2 @ 200,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,2,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,2,isCompliant,compliant batch,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,3,labelling,all mandatory items,True,False
+qwen7b,D_json_solidity,RefinedOlivePomaceOil,3,isCompliant,compliant batch,True,False

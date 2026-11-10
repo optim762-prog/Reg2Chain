@@ -1,0 +1,17 @@
+comparison,task,setting,delta_F1,CI_low,CI_high,p_value
+hybrid vs rules,NER,strict,0.018,-0.023,0.06,0.382
+hybrid vs rules,NER,relaxed,0.045,0.006,0.085,0.0244
+hybrid vs rules,RE,strict,0.077,-0.019,0.202,0.1478
+hybrid vs rules,RE,relaxed,0.046,-0.024,0.129,0.211
+hybrid vs llm,NER,strict,0.099,0.043,0.163,0.0002
+hybrid vs llm,NER,relaxed,0.021,-0.003,0.049,0.0878
+hybrid vs llm,RE,strict,0.077,0.025,0.137,0.0006
+hybrid vs llm,RE,relaxed,0.014,-0.065,0.096,0.7326
+hybrid vs baseline,NER,strict,0.761,0.664,0.842,0.0
+hybrid vs baseline,NER,relaxed,0.68,0.607,0.748,0.0
+hybrid vs baseline,RE,strict,0.613,0.46,0.742,0.0
+hybrid vs baseline,RE,relaxed,0.644,0.495,0.765,0.0
+llm vs rules,NER,strict,-0.081,-0.146,-0.019,0.0118
+llm vs rules,NER,relaxed,0.023,-0.021,0.07,0.2808
+llm vs rules,RE,strict,-0.0,-0.106,0.133,0.9756
+llm vs rules,RE,relaxed,0.032,-0.058,0.132,0.4808

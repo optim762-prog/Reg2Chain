@@ -1,0 +1,15 @@
+review_id,model,condition,category,run
+K01,deepseek6.7b,C_json_onto,ExtraVirginOliveOil,1
+K02,qwen7b,A_text,OlivePomaceOil,1
+K03,qwen14b,B_json,ExtraVirginOliveOil,1
+K04,qwen7b,B_json,ExtraVirginOliveOil,1
+K05,qwen7b,C_json_onto,ExtraVirginOliveOil,1
+K06,deepseek6.7b,C_json_onto,OlivePomaceOil,1
+K07,qwen7b,B_json,OlivePomaceOil,1
+K08,qwen7b,C_json_onto,OlivePomaceOil,1
+K09,qwen14b,B_json,OlivePomaceOil,1
+K10,qwen14b,C_json_onto,ExtraVirginOliveOil,1
+K11,qwen14b,C_json_onto,OlivePomaceOil,1
+K12,qwen14b,A_text,OlivePomaceOil,1
+K13,qwen7b,A_text,ExtraVirginOliveOil,1
+K14,qwen14b,A_text,ExtraVirginOliveOil,1
