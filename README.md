@@ -1,7 +1,7 @@
 # Reg2Chain: Bridging Regulations to Blockchain through Automated Smart Contract Generation
 
 Code, data and results of the paper *Reg2Chain: Bridging Regulations to Blockchain through Automated
-Smart Contract Generation* (Kohail, De Luzi, Grati, Boukadi and Mecella).
+Smart Contract Generation*.
 
 Reg2Chain turns a regulation into a knowledge graph and uses it to guide the generation of smart
 contracts by open LLMs. The case study is Commission Delegated Regulation (EU) 2022/2104 on olive
