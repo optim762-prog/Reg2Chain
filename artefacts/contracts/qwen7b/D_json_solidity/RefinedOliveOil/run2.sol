@@ -1,0 +1,51 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract RefinedOliveOilCompliance {
+    // Quality limits
+    function checkLimit(string memory parameter, int256 value) public pure returns (bool) {
+        if (keccak256(bytes(parameter)) == keccak256(bytes("Acidity"))) return value <= 300; // source: Annex I, Table A, row 4
+        if (keccak256(bytes(parameter)) == keccak256(bytes("PeroxideValueMEqO2Kg"))) return value <= 5000; // source: Annex I, Table A, row 4
+        if (keccak256(bytes(parameter)) == keccak256(bytes("K268OrK270"))) return value <= 1250; // source: Annex I, Table A, row 4
+        if (keccak256(bytes(parameter)) == keccak256(bytes("DeltaK"))) return value <= 160; // source: Annex I, Table A, row 4
+        return true;
+    }
+
+    // Labelling requirements
+    function checkLabelling(string[] memory items) public pure returns (bool) {
+        bool hasLegalName = false;
+        bool hasFoodstuff = false;
+        bool hasHarvestingYear = false;
+        bool hasPlaceOfOrigin = false;
+        bool hasOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans = false;
+        bool hasColdExtraction = false;
+        bool hasFirstColdPressing = false;
+        bool hasOliveComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives = false;
+
+        for (uint i = 0; i < items.length; i++) {
+            if (keccak256(bytes(items[i])) == keccak256(bytes("LegalName"))) hasLegalName = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("Foodstuff"))) hasFoodstuff = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("HarvestingYear"))) hasHarvestingYear = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("PlaceOfOrigin"))) hasPlaceOfOrigin = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans"))) hasOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("ColdExtraction"))) hasColdExtraction = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("FirstColdPressing"))) hasFirstColdPressing = true;
+            if (keccak256(bytes(items[i])) == keccak256(bytes("OliveComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives"))) hasOliveComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives = true;
+        }
+
+        return hasLegalName && hasFoodstuff && hasHarvestingYear && hasPlaceOfOrigin &&
+               hasOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans && hasColdExtraction &&
+               hasFirstColdPressing && hasOliveComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives;
+    }
+
+    // Combined compliance check
+    function isCompliant(string[] memory parameters, int256[] memory values, string[] memory items) public pure returns (bool) {
+        require(parameters.length == values.length, "Parameters and values arrays must have the same length");
+
+        for (uint i = 0; i < parameters.length; i++) {
+            if (!checkLimit(parameters[i], values[i])) return false;
+        }
+
+        return checkLabelling(items);
+    }
+}

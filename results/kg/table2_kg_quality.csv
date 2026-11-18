@@ -1,0 +1,4 @@
+graph,nodes,edges,avg_degree,isolated_nodes,components,largest_component_share,concepts,rules,traceable_rules_share,rules_test,gold_rules_test,rule_TP,rule_precision,rule_recall,rule_F1,concept_precision
+baseline,40,27,1.35,12,13,0.7,30,1,1.0,1,70,0,0.0,0.0,0.0,0.303
+learned,237,273,2.3,17,19,0.844,99,57,1.0,47,70,39,0.83,0.557,0.667,0.878
+refined,250,327,2.62,20,24,0.828,78,71,1.0,58,70,46,0.793,0.657,0.719,0.895

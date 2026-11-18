@@ -1,0 +1,387 @@
+{
+ "nodes": [
+  {
+   "id": "LabelItem",
+   "kind": "Concept",
+   "label": "LabelItem",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "QualityParameter",
+   "kind": "Concept",
+   "label": "QualityParameter",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "Process",
+   "kind": "Concept",
+   "label": "Process",
+   "top_class": "Process"
+  },
+  {
+   "id": "Actor",
+   "kind": "Concept",
+   "label": "Actor",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Product",
+   "kind": "Concept",
+   "label": "Product",
+   "top_class": "Product"
+  },
+  {
+   "id": "Annex",
+   "kind": "Concept",
+   "label": "Annex",
+   "top_class": "Actor"
+  },
+  {
+   "id": "AnnexIXTo",
+   "kind": "Concept",
+   "label": "Annex IX to",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Directive89104EEC",
+   "kind": "Concept",
+   "label": "Directive 89/104/EEC",
+   "top_class": "Actor"
+  },
+  {
+   "id": "EC",
+   "kind": "Concept",
+   "label": "EC",
+   "top_class": "Actor"
+  },
+  {
+   "id": "EU",
+   "kind": "Concept",
+   "label": "EU",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Fruity",
+   "kind": "Concept",
+   "label": "Fruity",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Md",
+   "kind": "Concept",
+   "label": "Md",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Median",
+   "kind": "Concept",
+   "label": "Median",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Regulation",
+   "kind": "Concept",
+   "label": "Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Union",
+   "kind": "Concept",
+   "label": "Union",
+   "top_class": "Actor"
+  },
+  {
+   "id": "TheMemberState",
+   "kind": "Concept",
+   "label": "the Member State",
+   "top_class": "Actor"
+  },
+  {
+   "id": "ΔK001",
+   "kind": "Concept",
+   "label": "ΔK ≤ 0,01",
+   "top_class": "Actor"
+  },
+  {
+   "id": "ΔK015",
+   "kind": "Concept",
+   "label": "ΔK ≤ 0,15",
+   "top_class": "Actor"
+  },
+  {
+   "id": "ΔK016",
+   "kind": "Concept",
+   "label": "ΔK ≤ 0,16",
+   "top_class": "Actor"
+  },
+  {
+   "id": "ΔK018",
+   "kind": "Concept",
+   "label": "ΔK ≤ 0,18",
+   "top_class": "Actor"
+  },
+  {
+   "id": "ΔK020",
+   "kind": "Concept",
+   "label": "ΔK ≤ 0,20",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Concept",
+   "kind": "Concept",
+   "label": "≤",
+   "top_class": "Actor"
+  },
+  {
+   "id": "TheOfficialJournalOfTheEuropeanUnion",
+   "kind": "Concept",
+   "label": "the Official Journal of the European Union",
+   "top_class": "Actor"
+  },
+  {
+   "id": "AnnexIXToRegulation",
+   "kind": "Concept",
+   "label": "Annex IX to Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "AnnexVIIToRegulation",
+   "kind": "Concept",
+   "label": "Annex VII to Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Articles59To63OfRegulation",
+   "kind": "Concept",
+   "label": "Articles 59 to 63 of Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "CommissionImplementingRegulation",
+   "kind": "Concept",
+   "label": "Commission Implementing Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "CouncilRegulation",
+   "kind": "Concept",
+   "label": "Council Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "DelegatedRegulation",
+   "kind": "Concept",
+   "label": "Delegated Regulation",
+   "top_class": "Actor"
+  },
+  {
+   "id": "EuropeanUnion",
+   "kind": "Concept",
+   "label": "European Union",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Ref_Article1",
+   "kind": "LegalReference",
+   "label": "Article 1",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article22",
+   "kind": "LegalReference",
+   "label": "Article 2(2",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article6",
+   "kind": "LegalReference",
+   "label": "Article 6",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article6OfCommissionImplementingRegulati",
+   "kind": "LegalReference",
+   "label": "Article 6 of Commission Implementing Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article61",
+   "kind": "LegalReference",
+   "label": "Article 6(1",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article81",
+   "kind": "LegalReference",
+   "label": "Article 8(1",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article91",
+   "kind": "LegalReference",
+   "label": "Article 9(1",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_O2Kg",
+   "kind": "LegalReference",
+   "label": "O2/kg",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "R001",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "a maximum capacity",
+   "parameter": "",
+   "source": "Article 4(2)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART4.2",
+   "kind": "Provision",
+   "source": "Article 4(2)",
+   "text": "In the case of oils referred to in Article 1, point (b), intended for consumption in restaurants, hospitals, canteens and other similar collective establishments, Member States may set a maximum capacity exceeding five litres for packaging, depending on the type of establishment concerned."
+  }
+ ],
+ "edges": [
+  {
+   "source": "Annex",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "AnnexIXTo",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Directive89104EEC",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "EC",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "EU",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Fruity",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Md",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Median",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Regulation",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Union",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "TheMemberState",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "ΔK001",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "ΔK015",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "ΔK016",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "ΔK018",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "ΔK020",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Concept",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "TheOfficialJournalOfTheEuropeanUnion",
+   "type": "SUBCLASS_OF",
+   "target": "EuropeanUnion"
+  },
+  {
+   "source": "AnnexIXToRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "AnnexVIIToRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "Articles59To63OfRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "CommissionImplementingRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "CouncilRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "DelegatedRegulation",
+   "type": "SUBCLASS_OF",
+   "target": "Regulation"
+  },
+  {
+   "source": "EuropeanUnion",
+   "type": "SUBCLASS_OF",
+   "target": "Union"
+  },
+  {
+   "source": "R001",
+   "type": "APPLIES_TO",
+   "target": "TheMemberState"
+  },
+  {
+   "source": "R001",
+   "type": "DERIVED_FROM",
+   "target": "P_ART4.2"
+  }
+ ]
+}

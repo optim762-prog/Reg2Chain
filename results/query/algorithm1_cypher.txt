@@ -1,0 +1,15 @@
+MATCH (c:Concept {id: $category})-[:SUBCLASS_OF*0..]->(a:Concept)
+WHERE a.id <> 'Product'
+MATCH (r:Rule)-[:APPLIES_TO]->(a)
+OPTIONAL MATCH (r)-[:CONCERNS]->(o)
+OPTIONAL MATCH (r)-[:DERIVED_FROM]->(p:Provision)
+RETURN DISTINCT r {.*} AS rule, a.id AS via, o.id AS object_id,
+       coalesce(o.label, o.id) AS object_label, o.expression AS object_expression,
+       p.source AS source, p.text AS provision
+
+MATCH (r:Rule {type: 'CONDITION'})-[:APPLIES_TO]->(x {id: $item})
+OPTIONAL MATCH (r)-[:CONCERNS]->(o)
+OPTIONAL MATCH (r)-[:DERIVED_FROM]->(p:Provision)
+RETURN DISTINCT r {.*} AS rule, $item AS via, o.id AS object_id,
+       coalesce(o.label, o.id) AS object_label, o.expression AS object_expression,
+       p.source AS source, p.text AS provision

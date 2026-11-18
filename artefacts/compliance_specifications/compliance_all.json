@@ -1,0 +1,1032 @@
+[
+ {
+  "category": "ExtraVirginOliveOil",
+  "label": "extra virgin olive oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R024",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 0.8,
+    "value_text": "≤ 0,80",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R025",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 20.0,
+    "value_text": "≤ 20,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R026",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "K232",
+    "operator": "≤",
+    "value": 2.5,
+    "value_text": "≤ 2,50",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R027",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 0.22,
+    "value_text": "≤ 0,22",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R028",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.01,
+    "value_text": "≤ 0,01",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R029",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "MedianOfDefectMd",
+    "operator": "=",
+    "value": 0.0,
+    "value_text": "= 0,0",
+    "unit": "sensory median"
+   },
+   {
+    "rule_id": "R030",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "FruityMedianMf",
+    "operator": ">",
+    "value": 0.0,
+    "value_text": "> 0,0",
+    "unit": "sensory median"
+   },
+   {
+    "rule_id": "R031",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 1",
+    "parameter": "FattyAcidEthylEstersMgKg",
+    "operator": "≤",
+    "value": 35.0,
+    "value_text": "≤ 35",
+    "unit": "mg/kg"
+   },
+   {
+    "rule_id": "R059",
+    "type": "LIMIT",
+    "source": "Article 4(1)",
+    "parameter": "PackagingCapacity",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5",
+    "unit": "L"
+   }
+  ],
+  "labelling": {
+   "obligations": [
+    {
+     "rule_id": "R005",
+     "type": "OBLIGATION",
+     "source": "Article 5(1)",
+     "label_item": "mandatory labelling particulars",
+     "label_item_id": "MandatoryLabellingParticulars"
+    },
+    {
+     "rule_id": "R007",
+     "type": "OBLIGATION",
+     "source": "Article 7",
+     "label_item": "Information on the special storage conditions",
+     "label_item_id": "InformationOnTheSpecialStorageConditions"
+    },
+    {
+     "rule_id": "R008",
+     "type": "OBLIGATION",
+     "source": "Article 8(1)",
+     "label_item": "place of origin",
+     "label_item_id": "PlaceOfOrigin",
+     "conditions": [
+      {
+       "rule_id": "R067",
+       "condition_id": "Condition_OriginOptions",
+       "condition": "For eligible virgin grades: one permitted single-origin reference, the appropriate blend-origin declaration, or an applicable PDO/PGI.",
+       "source": "Article 8(3)"
+      },
+      {
+       "rule_id": "R068",
+       "condition_id": "Condition_ImportedOrigin",
+       "condition": "For imports from a third country, determine origin under Articles 59–63 of Regulation (EU) No 952/2013.",
+       "source": "Article 8(5)"
+      },
+      {
+       "rule_id": "R069",
+       "condition_id": "Condition_HarvestExtractionOrigin",
+       "condition": "A Member State or Union origin designation corresponds to the area of both olive harvesting and the extraction mill; apply Article 8(7) when they differ.",
+       "source": "Article 8(6)"
+      },
+      {
+       "rule_id": "R070",
+       "condition_id": "Condition_DifferentHarvestExtractionCountries",
+       "condition": "If harvesting and extraction take place in different Member States or third countries, use the prescribed wording identifying both.",
+       "source": "Article 8(7)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R011",
+     "type": "OBLIGATION",
+     "source": "Article 9",
+     "label_item": "alphanumeric identification of the packaging plant",
+     "label_item_id": "AlphanumericIdentificationOfThePackagingPlant"
+    },
+    {
+     "rule_id": "R060",
+     "type": "OBLIGATION",
+     "source": "Article 4(1)",
+     "label_item": "non resealable opening system",
+     "label_item_id": "NonResealableOpeningSystem"
+    },
+    {
+     "rule_id": "R062",
+     "type": "OBLIGATION",
+     "source": "Article 6(1), read with Article 5(1)",
+     "label_item": "legal name",
+     "label_item_id": "LegalName",
+     "conditions": [
+      {
+       "rule_id": "R061",
+       "condition_id": "Condition_PrincipalField",
+       "condition": "Group legal name and, where required, origin in the principal field of vision on the same container; full particulars in homogeneous text.",
+       "source": "Article 5(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R063",
+     "type": "OBLIGATION",
+     "source": "Article 6(2)(a)",
+     "label_item": "‘superior category olive oil obtained directly from olives and solely by mechanical means’",
+     "label_item_id": "SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans"
+    }
+   ],
+   "permissions": [
+    {
+     "rule_id": "R002",
+     "type": "PERMISSION",
+     "source": "Article 3(1)",
+     "label_item": "blends of olive oil and other vegetable oils",
+     "label_item_id": "BlendsOfOliveOilAndOtherVegetableOils"
+    },
+    {
+     "rule_id": "R003",
+     "type": "PERMISSION",
+     "source": "Article 3(2)",
+     "label_item": "foodstuff",
+     "label_item_id": "Foodstuff"
+    },
+    {
+     "rule_id": "R006",
+     "type": "PERMISSION",
+     "source": "Article 5(3)",
+     "label_item": "voluntary labelling particulars",
+     "label_item_id": "VoluntaryLabellingParticulars"
+    },
+    {
+     "rule_id": "R012",
+     "type": "PERMISSION",
+     "source": "Article 10",
+     "label_item": "optional reserved terms",
+     "label_item_id": "OptionalReservedTerms"
+    },
+    {
+     "rule_id": "R013",
+     "type": "PERMISSION",
+     "source": "Article 10, point (c)",
+     "label_item": "indications of organoleptic characteristics referring to taste or smell",
+     "label_item_id": "IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell"
+    },
+    {
+     "rule_id": "R015",
+     "type": "PERMISSION",
+     "source": "Article 11(1)",
+     "label_item": "harvesting year",
+     "label_item_id": "HarvestingYear",
+     "conditions": [
+      {
+       "rule_id": "R073",
+       "condition_id": "Condition_SingleHarvest",
+       "condition": "100% of the container contents must come from that harvest. Apply to R015 and R016.",
+       "source": "Article 11(2)"
+      },
+      {
+       "rule_id": "R074",
+       "condition_id": "Condition_HarvestDateFormat",
+       "condition": "Use the relevant marketing year or month then year of harvest; the month is the oil-extraction month.",
+       "source": "Article 11(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R071",
+     "type": "PERMISSION",
+     "source": "Article 10(a)",
+     "label_item": "‘first cold pressing’",
+     "label_item_id": "FirstColdPressing"
+    },
+    {
+     "rule_id": "R072",
+     "type": "PERMISSION",
+     "source": "Article 10(b)",
+     "label_item": "‘cold extraction’",
+     "label_item_id": "ColdExtraction"
+    }
+   ],
+   "prohibitions": []
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 24,
+   "with_source_provision": 24
+  }
+ },
+ {
+  "category": "VirginOliveOil",
+  "label": "virgin olive oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R032",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 2.0,
+    "value_text": "≤ 2,0",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R033",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 20.0,
+    "value_text": "≤ 20,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R034",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "K232",
+    "operator": "≤",
+    "value": 2.6,
+    "value_text": "≤ 2,60",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R035",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 0.25,
+    "value_text": "≤ 0,25",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R036",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.01,
+    "value_text": "≤ 0,01",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R037",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "MedianOfDefectMd",
+    "operator": "≤",
+    "value": 3.5,
+    "value_text": "≤ 3,5",
+    "unit": "sensory median"
+   },
+   {
+    "rule_id": "R038",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 2",
+    "parameter": "FruityMedianMf",
+    "operator": ">",
+    "value": 0.0,
+    "value_text": "> 0,0",
+    "unit": "sensory median"
+   },
+   {
+    "rule_id": "R059",
+    "type": "LIMIT",
+    "source": "Article 4(1)",
+    "parameter": "PackagingCapacity",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5",
+    "unit": "L"
+   }
+  ],
+  "labelling": {
+   "obligations": [
+    {
+     "rule_id": "R005",
+     "type": "OBLIGATION",
+     "source": "Article 5(1)",
+     "label_item": "mandatory labelling particulars",
+     "label_item_id": "MandatoryLabellingParticulars"
+    },
+    {
+     "rule_id": "R007",
+     "type": "OBLIGATION",
+     "source": "Article 7",
+     "label_item": "Information on the special storage conditions",
+     "label_item_id": "InformationOnTheSpecialStorageConditions"
+    },
+    {
+     "rule_id": "R011",
+     "type": "OBLIGATION",
+     "source": "Article 9",
+     "label_item": "alphanumeric identification of the packaging plant",
+     "label_item_id": "AlphanumericIdentificationOfThePackagingPlant"
+    },
+    {
+     "rule_id": "R058",
+     "type": "OBLIGATION",
+     "source": "Article 8(1)",
+     "label_item": "place of origin",
+     "label_item_id": "PlaceOfOrigin",
+     "conditions": [
+      {
+       "rule_id": "R067",
+       "condition_id": "Condition_OriginOptions",
+       "condition": "For eligible virgin grades: one permitted single-origin reference, the appropriate blend-origin declaration, or an applicable PDO/PGI.",
+       "source": "Article 8(3)"
+      },
+      {
+       "rule_id": "R068",
+       "condition_id": "Condition_ImportedOrigin",
+       "condition": "For imports from a third country, determine origin under Articles 59–63 of Regulation (EU) No 952/2013.",
+       "source": "Article 8(5)"
+      },
+      {
+       "rule_id": "R069",
+       "condition_id": "Condition_HarvestExtractionOrigin",
+       "condition": "A Member State or Union origin designation corresponds to the area of both olive harvesting and the extraction mill; apply Article 8(7) when they differ.",
+       "source": "Article 8(6)"
+      },
+      {
+       "rule_id": "R070",
+       "condition_id": "Condition_DifferentHarvestExtractionCountries",
+       "condition": "If harvesting and extraction take place in different Member States or third countries, use the prescribed wording identifying both.",
+       "source": "Article 8(7)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R060",
+     "type": "OBLIGATION",
+     "source": "Article 4(1)",
+     "label_item": "non resealable opening system",
+     "label_item_id": "NonResealableOpeningSystem"
+    },
+    {
+     "rule_id": "R062",
+     "type": "OBLIGATION",
+     "source": "Article 6(1), read with Article 5(1)",
+     "label_item": "legal name",
+     "label_item_id": "LegalName",
+     "conditions": [
+      {
+       "rule_id": "R061",
+       "condition_id": "Condition_PrincipalField",
+       "condition": "Group legal name and, where required, origin in the principal field of vision on the same container; full particulars in homogeneous text.",
+       "source": "Article 5(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R064",
+     "type": "OBLIGATION",
+     "source": "Article 6(2)(b)",
+     "label_item": "‘olive oil obtained directly from olives and solely by mechanical means’",
+     "label_item_id": "OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans"
+    }
+   ],
+   "permissions": [
+    {
+     "rule_id": "R002",
+     "type": "PERMISSION",
+     "source": "Article 3(1)",
+     "label_item": "blends of olive oil and other vegetable oils",
+     "label_item_id": "BlendsOfOliveOilAndOtherVegetableOils"
+    },
+    {
+     "rule_id": "R003",
+     "type": "PERMISSION",
+     "source": "Article 3(2)",
+     "label_item": "foodstuff",
+     "label_item_id": "Foodstuff"
+    },
+    {
+     "rule_id": "R006",
+     "type": "PERMISSION",
+     "source": "Article 5(3)",
+     "label_item": "voluntary labelling particulars",
+     "label_item_id": "VoluntaryLabellingParticulars"
+    },
+    {
+     "rule_id": "R012",
+     "type": "PERMISSION",
+     "source": "Article 10",
+     "label_item": "optional reserved terms",
+     "label_item_id": "OptionalReservedTerms"
+    },
+    {
+     "rule_id": "R013",
+     "type": "PERMISSION",
+     "source": "Article 10, point (c)",
+     "label_item": "indications of organoleptic characteristics referring to taste or smell",
+     "label_item_id": "IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell"
+    },
+    {
+     "rule_id": "R016",
+     "type": "PERMISSION",
+     "source": "Article 11(1)",
+     "label_item": "harvesting year",
+     "label_item_id": "HarvestingYear",
+     "conditions": [
+      {
+       "rule_id": "R073",
+       "condition_id": "Condition_SingleHarvest",
+       "condition": "100% of the container contents must come from that harvest. Apply to R015 and R016.",
+       "source": "Article 11(2)"
+      },
+      {
+       "rule_id": "R074",
+       "condition_id": "Condition_HarvestDateFormat",
+       "condition": "Use the relevant marketing year or month then year of harvest; the month is the oil-extraction month.",
+       "source": "Article 11(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R071",
+     "type": "PERMISSION",
+     "source": "Article 10(a)",
+     "label_item": "‘first cold pressing’",
+     "label_item_id": "FirstColdPressing"
+    },
+    {
+     "rule_id": "R072",
+     "type": "PERMISSION",
+     "source": "Article 10(b)",
+     "label_item": "‘cold extraction’",
+     "label_item_id": "ColdExtraction"
+    }
+   ],
+   "prohibitions": []
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 23,
+   "with_source_provision": 23
+  }
+ },
+ {
+  "category": "LampanteOliveOil",
+  "label": "lampante olive oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [],
+  "labelling": {
+   "obligations": [],
+   "permissions": [],
+   "prohibitions": []
+  },
+  "conditions": [
+   {
+    "rule_id": "R039",
+    "type": "CONDITION",
+    "source": "Annex I, Table A, row 3",
+    "condition": "Acidity > 2.0% OR defect median > 3.5 OR fruity median = 0",
+    "condition_id": "Condition_LampanteClassification"
+   }
+  ],
+  "traceability": {
+   "rules": 1,
+   "with_source_provision": 1
+  }
+ },
+ {
+  "category": "RefinedOliveOil",
+  "label": "refined olive oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R041",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 4",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 0.3,
+    "value_text": "≤ 0,30",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R042",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 4",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R043",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 4",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 1.25,
+    "value_text": "≤ 1,25",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R044",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 4",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.16,
+    "value_text": "≤ 0,16",
+    "unit": "dimensionless"
+   }
+  ],
+  "labelling": {
+   "obligations": [],
+   "permissions": [],
+   "prohibitions": []
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 4,
+   "with_source_provision": 4
+  }
+ },
+ {
+  "category": "OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils",
+  "label": "olive oil composed of refined olive oils and virgin olive oils",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R045",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 5",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 1.0,
+    "value_text": "≤ 1,00",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R046",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 5",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 15.0,
+    "value_text": "≤ 15,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R047",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 5",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 1.15,
+    "value_text": "≤ 1,15",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R048",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 5",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.15,
+    "value_text": "≤ 0,15",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R059",
+    "type": "LIMIT",
+    "source": "Article 4(1)",
+    "parameter": "PackagingCapacity",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5",
+    "unit": "L"
+   }
+  ],
+  "labelling": {
+   "obligations": [
+    {
+     "rule_id": "R005",
+     "type": "OBLIGATION",
+     "source": "Article 5(1)",
+     "label_item": "mandatory labelling particulars",
+     "label_item_id": "MandatoryLabellingParticulars"
+    },
+    {
+     "rule_id": "R007",
+     "type": "OBLIGATION",
+     "source": "Article 7",
+     "label_item": "Information on the special storage conditions",
+     "label_item_id": "InformationOnTheSpecialStorageConditions"
+    },
+    {
+     "rule_id": "R011",
+     "type": "OBLIGATION",
+     "source": "Article 9",
+     "label_item": "alphanumeric identification of the packaging plant",
+     "label_item_id": "AlphanumericIdentificationOfThePackagingPlant"
+    },
+    {
+     "rule_id": "R060",
+     "type": "OBLIGATION",
+     "source": "Article 4(1)",
+     "label_item": "non resealable opening system",
+     "label_item_id": "NonResealableOpeningSystem"
+    },
+    {
+     "rule_id": "R062",
+     "type": "OBLIGATION",
+     "source": "Article 6(1), read with Article 5(1)",
+     "label_item": "legal name",
+     "label_item_id": "LegalName",
+     "conditions": [
+      {
+       "rule_id": "R061",
+       "condition_id": "Condition_PrincipalField",
+       "condition": "Group legal name and, where required, origin in the principal field of vision on the same container; full particulars in homogeneous text.",
+       "source": "Article 5(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R065",
+     "type": "OBLIGATION",
+     "source": "Article 6(2)(c)",
+     "label_item": "‘oil comprising exclusively olive oils that have undergone refining and oils obtained directly from olives’",
+     "label_item_id": "OilComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives"
+    }
+   ],
+   "permissions": [
+    {
+     "rule_id": "R002",
+     "type": "PERMISSION",
+     "source": "Article 3(1)",
+     "label_item": "blends of olive oil and other vegetable oils",
+     "label_item_id": "BlendsOfOliveOilAndOtherVegetableOils"
+    },
+    {
+     "rule_id": "R003",
+     "type": "PERMISSION",
+     "source": "Article 3(2)",
+     "label_item": "foodstuff",
+     "label_item_id": "Foodstuff"
+    },
+    {
+     "rule_id": "R006",
+     "type": "PERMISSION",
+     "source": "Article 5(3)",
+     "label_item": "voluntary labelling particulars",
+     "label_item_id": "VoluntaryLabellingParticulars"
+    },
+    {
+     "rule_id": "R012",
+     "type": "PERMISSION",
+     "source": "Article 10",
+     "label_item": "optional reserved terms",
+     "label_item_id": "OptionalReservedTerms"
+    }
+   ],
+   "prohibitions": [
+    {
+     "rule_id": "R009",
+     "type": "PROHIBITION",
+     "source": "Article 8(2)",
+     "label_item": "place of origin",
+     "label_item_id": "PlaceOfOrigin",
+     "conditions": [
+      {
+       "rule_id": "R067",
+       "condition_id": "Condition_OriginOptions",
+       "condition": "For eligible virgin grades: one permitted single-origin reference, the appropriate blend-origin declaration, or an applicable PDO/PGI.",
+       "source": "Article 8(3)"
+      },
+      {
+       "rule_id": "R068",
+       "condition_id": "Condition_ImportedOrigin",
+       "condition": "For imports from a third country, determine origin under Articles 59–63 of Regulation (EU) No 952/2013.",
+       "source": "Article 8(5)"
+      },
+      {
+       "rule_id": "R069",
+       "condition_id": "Condition_HarvestExtractionOrigin",
+       "condition": "A Member State or Union origin designation corresponds to the area of both olive harvesting and the extraction mill; apply Article 8(7) when they differ.",
+       "source": "Article 8(6)"
+      },
+      {
+       "rule_id": "R070",
+       "condition_id": "Condition_DifferentHarvestExtractionCountries",
+       "condition": "If harvesting and extraction take place in different Member States or third countries, use the prescribed wording identifying both.",
+       "source": "Article 8(7)"
+      }
+     ]
+    }
+   ]
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 16,
+   "with_source_provision": 16
+  }
+ },
+ {
+  "category": "CrudeOlivePomaceOil",
+  "label": "crude olive-pomace oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [],
+  "labelling": {
+   "obligations": [],
+   "permissions": [],
+   "prohibitions": []
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 0,
+   "with_source_provision": 0
+  }
+ },
+ {
+  "category": "RefinedOlivePomaceOil",
+  "label": "refined olive-pomace oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R050",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 7",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 0.3,
+    "value_text": "≤ 0,30",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R051",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 7",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R052",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 7",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 2.0,
+    "value_text": "≤ 2,00",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R053",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 7",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.2,
+    "value_text": "≤ 0,20",
+    "unit": "dimensionless"
+   }
+  ],
+  "labelling": {
+   "obligations": [],
+   "permissions": [],
+   "prohibitions": []
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 4,
+   "with_source_provision": 4
+  }
+ },
+ {
+  "category": "OlivePomaceOil",
+  "label": "olive-pomace oil",
+  "regulation": "Commission Delegated Regulation (EU) 2022/2104",
+  "quality_limits": [
+   {
+    "rule_id": "R054",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 8",
+    "parameter": "Acidity",
+    "operator": "≤",
+    "value": 1.0,
+    "value_text": "≤ 1,00",
+    "unit": "%"
+   },
+   {
+    "rule_id": "R055",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 8",
+    "parameter": "PeroxideValueMEqO2Kg",
+    "operator": "≤",
+    "value": 15.0,
+    "value_text": "≤ 15,0",
+    "unit": "mEq O2/kg"
+   },
+   {
+    "rule_id": "R056",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 8",
+    "parameter": "K268OrK270",
+    "operator": "≤",
+    "value": 1.7,
+    "value_text": "≤ 1,70",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R057",
+    "type": "LIMIT",
+    "source": "Annex I, Table A, row 8",
+    "parameter": "ΔK",
+    "operator": "≤",
+    "value": 0.18,
+    "value_text": "≤ 0,18",
+    "unit": "dimensionless"
+   },
+   {
+    "rule_id": "R059",
+    "type": "LIMIT",
+    "source": "Article 4(1)",
+    "parameter": "PackagingCapacity",
+    "operator": "≤",
+    "value": 5.0,
+    "value_text": "≤ 5",
+    "unit": "L"
+   }
+  ],
+  "labelling": {
+   "obligations": [
+    {
+     "rule_id": "R005",
+     "type": "OBLIGATION",
+     "source": "Article 5(1)",
+     "label_item": "mandatory labelling particulars",
+     "label_item_id": "MandatoryLabellingParticulars"
+    },
+    {
+     "rule_id": "R007",
+     "type": "OBLIGATION",
+     "source": "Article 7",
+     "label_item": "Information on the special storage conditions",
+     "label_item_id": "InformationOnTheSpecialStorageConditions"
+    },
+    {
+     "rule_id": "R011",
+     "type": "OBLIGATION",
+     "source": "Article 9",
+     "label_item": "alphanumeric identification of the packaging plant",
+     "label_item_id": "AlphanumericIdentificationOfThePackagingPlant"
+    },
+    {
+     "rule_id": "R060",
+     "type": "OBLIGATION",
+     "source": "Article 4(1)",
+     "label_item": "non resealable opening system",
+     "label_item_id": "NonResealableOpeningSystem"
+    },
+    {
+     "rule_id": "R062",
+     "type": "OBLIGATION",
+     "source": "Article 6(1), read with Article 5(1)",
+     "label_item": "legal name",
+     "label_item_id": "LegalName",
+     "conditions": [
+      {
+       "rule_id": "R061",
+       "condition_id": "Condition_PrincipalField",
+       "condition": "Group legal name and, where required, origin in the principal field of vision on the same container; full particulars in homogeneous text.",
+       "source": "Article 5(2)"
+      }
+     ]
+    },
+    {
+     "rule_id": "R066",
+     "type": "OBLIGATION",
+     "source": "Article 6(2)(d)",
+     "label_item": "olive pomace category information",
+     "label_item_id": "OlivePomaceCategoryInformation"
+    }
+   ],
+   "permissions": [
+    {
+     "rule_id": "R002",
+     "type": "PERMISSION",
+     "source": "Article 3(1)",
+     "label_item": "blends of olive oil and other vegetable oils",
+     "label_item_id": "BlendsOfOliveOilAndOtherVegetableOils"
+    },
+    {
+     "rule_id": "R003",
+     "type": "PERMISSION",
+     "source": "Article 3(2)",
+     "label_item": "foodstuff",
+     "label_item_id": "Foodstuff"
+    },
+    {
+     "rule_id": "R006",
+     "type": "PERMISSION",
+     "source": "Article 5(3)",
+     "label_item": "voluntary labelling particulars",
+     "label_item_id": "VoluntaryLabellingParticulars"
+    },
+    {
+     "rule_id": "R012",
+     "type": "PERMISSION",
+     "source": "Article 10",
+     "label_item": "optional reserved terms",
+     "label_item_id": "OptionalReservedTerms"
+    }
+   ],
+   "prohibitions": [
+    {
+     "rule_id": "R009",
+     "type": "PROHIBITION",
+     "source": "Article 8(2)",
+     "label_item": "place of origin",
+     "label_item_id": "PlaceOfOrigin",
+     "conditions": [
+      {
+       "rule_id": "R067",
+       "condition_id": "Condition_OriginOptions",
+       "condition": "For eligible virgin grades: one permitted single-origin reference, the appropriate blend-origin declaration, or an applicable PDO/PGI.",
+       "source": "Article 8(3)"
+      },
+      {
+       "rule_id": "R068",
+       "condition_id": "Condition_ImportedOrigin",
+       "condition": "For imports from a third country, determine origin under Articles 59–63 of Regulation (EU) No 952/2013.",
+       "source": "Article 8(5)"
+      },
+      {
+       "rule_id": "R069",
+       "condition_id": "Condition_HarvestExtractionOrigin",
+       "condition": "A Member State or Union origin designation corresponds to the area of both olive harvesting and the extraction mill; apply Article 8(7) when they differ.",
+       "source": "Article 8(6)"
+      },
+      {
+       "rule_id": "R070",
+       "condition_id": "Condition_DifferentHarvestExtractionCountries",
+       "condition": "If harvesting and extraction take place in different Member States or third countries, use the prescribed wording identifying both.",
+       "source": "Article 8(7)"
+      }
+     ]
+    }
+   ]
+  },
+  "conditions": [],
+  "traceability": {
+   "rules": 16,
+   "with_source_provision": 16
+  }
+ }
+]

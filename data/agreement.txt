@@ -1,0 +1,5 @@
+Double-annotated units: 14
+Entities strict (span+type): A1=53 A2=61 agreed=48 F1=0.842
+Entities untyped (span only): agreed=48 F1=0.842
+Cohen's kappa (token level, 714 tokens): 0.826
+Relations strict: A1=29 A2=36 agreed=27 F1=0.831

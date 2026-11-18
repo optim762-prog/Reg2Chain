@@ -1,0 +1,6 @@
+review_id,model,condition,category,run,replaces
+K15,qwen7b,B_json,ExtraVirginOliveOil,1,K04
+K16,qwen7b,D_json_solidity,ExtraVirginOliveOil,1,
+K17,qwen14b,D_json_solidity,ExtraVirginOliveOil,1,
+K18,qwen14b,D_json_solidity,OlivePomaceOil,1,
+K19,qwen7b,D_json_solidity,OlivePomaceOil,1,

@@ -1,0 +1,13 @@
+qwen7b/C_json_onto vs qwen7b/A_text: n=18 mean test pass 0.791 vs 0.682 (diff +0.109), Wilcoxon p=0.0094
+qwen7b/B_json vs qwen7b/A_text: n=18 mean test pass 0.849 vs 0.682 (diff +0.167), Wilcoxon p=0.0013
+qwen7b/C_json_onto vs qwen7b/B_json: n=18 mean test pass 0.791 vs 0.849 (diff -0.058), Wilcoxon p=0.1054
+qwen14b/C_json_onto vs qwen14b/A_text: n=18 mean test pass 1.000 vs 0.649 (diff +0.351), Wilcoxon p=0.0002
+qwen14b/B_json vs qwen14b/A_text: n=18 mean test pass 1.000 vs 0.649 (diff +0.351), Wilcoxon p=0.0002
+qwen14b/C_json_onto vs qwen14b/B_json: n=18 mean test pass 1.000 vs 1.000 (diff +0.000), Wilcoxon p=1.0000
+qwen7b/D_json_solidity vs qwen7b/B_json: n=18 mean test pass 0.911 vs 0.849 (diff +0.061), Wilcoxon p=0.0202
+qwen7b/D_json_solidity vs qwen7b/A_text: n=18 mean test pass 0.911 vs 0.682 (diff +0.228), Wilcoxon p=0.0003
+qwen14b/D_json_solidity vs qwen14b/B_json: n=18 mean test pass 1.000 vs 1.000 (diff +0.000), Wilcoxon p=1.0000
+qwen14b/D_json_solidity vs qwen14b/A_text: n=18 mean test pass 1.000 vs 0.649 (diff +0.351), Wilcoxon p=0.0002
+qwen14b/C_json_onto vs qwen7b/C_json_onto: n=18 mean test pass 1.000 vs 0.791 (diff +0.209), Wilcoxon p=0.0002
+qwen14b/C_json_onto vs deepseek6.7b/C_json_onto: n=18 mean test pass 1.000 vs 0.873 (diff +0.127), Wilcoxon p=0.0009
+deepseek6.7b/C_json_onto vs qwen7b/C_json_onto: n=18 mean test pass 0.873 vs 0.791 (diff +0.082), Wilcoxon p=0.0697

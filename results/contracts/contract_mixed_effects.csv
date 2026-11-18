@@ -1,0 +1,8 @@
+comparison,mean_1,mean_2,effect,se,categories_up,categories_down,categories_equal,p,p_random_intercept_only,p_holm,p_holm_random_intercept_only
+qwen7b B vs qwen7b A,0.849,0.682,0.167,0.068,5,1,0,0.0143,0.0,0.0571,0.0
+qwen14b B vs qwen14b A,1.0,0.649,0.351,0.121,6,0,0,0.0038,0.0,0.0188,0.0
+qwen7b C vs qwen7b B,0.791,0.849,-0.058,0.039,1,3,2,0.1361,0.0205,0.4084,0.0615
+qwen7b D vs qwen7b B,0.911,0.849,0.061,0.043,5,1,0,0.15,0.0218,0.4084,0.0615
+qwen14b C vs qwen7b C,1.0,0.791,0.209,0.056,6,0,0,0.0002,0.0,0.0013,0.0
+qwen14b C vs deepseek6.7b C,1.0,0.873,0.127,0.035,6,0,0,0.0003,0.0,0.0021,0.0
+deepseek6.7b C vs qwen7b C,0.873,0.791,0.082,0.092,3,3,0,0.3717,0.0335,0.4084,0.0615

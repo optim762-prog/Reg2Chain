@@ -1,0 +1,10 @@
+model,condition,category,run,rules,compiles_after,first_error
+qwen14b,A_text,ExtraVirginOliveOil,3,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."
+qwen14b,A_text,OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils,3,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."
+qwen14b,A_text,OlivePomaceOil,2,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."
+qwen14b,A_text,RefinedOliveOil,1,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."
+qwen14b,A_text,RefinedOliveOil,3,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."
+qwen14b,A_text,VirginOliveOil,1,none,False,ParserError: Expected ')' but got end of source
+qwen14b,A_text,VirginOliveOil,2,none,False,ParserError: Expected type name
+qwen14b,A_text,VirginOliveOil,3,none,False,ParserError: Expected primary expression.
+qwen7b,A_text,RefinedOliveOil,1,N4,True,"CompilerError: Stack too deep. Try compiling with `--via-ir` (cli) or the equivalent `viaIR: true` (standard JSON) while enabling the optimizer. Otherwise, try removing local variables."

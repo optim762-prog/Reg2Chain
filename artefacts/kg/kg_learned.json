@@ -1,0 +1,3135 @@
+{
+ "nodes": [
+  {
+   "id": "Actor",
+   "kind": "Concept",
+   "label": "Actor",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Product",
+   "kind": "Concept",
+   "label": "Product",
+   "top_class": "Product"
+  },
+  {
+   "id": "LabelItem",
+   "kind": "Concept",
+   "label": "LabelItem",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "Process",
+   "kind": "Concept",
+   "label": "Process",
+   "top_class": "Process"
+  },
+  {
+   "id": "QualityParameter",
+   "kind": "Concept",
+   "label": "QualityParameter",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "MemberStates",
+   "kind": "Concept",
+   "label": "Member States",
+   "top_class": "Actor"
+  },
+  {
+   "id": "FinalConsumer",
+   "kind": "Concept",
+   "label": "final consumer",
+   "top_class": "Actor"
+  },
+  {
+   "id": "Mill",
+   "kind": "Concept",
+   "label": "mill",
+   "top_class": "Actor"
+  },
+  {
+   "id": "InformationOnTheSpecialStorageConditions",
+   "kind": "Concept",
+   "label": "Information on the special storage conditions",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "MemberState",
+   "kind": "Concept",
+   "label": "Member State",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "Union",
+   "kind": "Concept",
+   "label": "Union",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "AlphanumericIdentificationOfThePackagingPlant",
+   "kind": "Concept",
+   "label": "alphanumeric identification of the packaging plant",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "CategoryOfOil",
+   "kind": "Concept",
+   "label": "category of oil",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "CharacteristicsSetOut",
+   "kind": "Concept",
+   "label": "characteristics set out",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "Container",
+   "kind": "Concept",
+   "label": "container",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "DescriptionOfTheOils",
+   "kind": "Concept",
+   "label": "description of the oils",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "GeographicalArea",
+   "kind": "Concept",
+   "label": "geographical area",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "HarvestingYear",
+   "kind": "Concept",
+   "label": "harvesting year",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ImagesOrGraphics",
+   "kind": "Concept",
+   "label": "images or graphics",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability",
+   "kind": "Concept",
+   "label": "indication of the maximum acidity expected by the date of minimum durability",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell",
+   "kind": "Concept",
+   "label": "indications of organoleptic characteristics referring to taste or smell",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "InternalConsumption",
+   "kind": "Concept",
+   "label": "internal consumption",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "Label",
+   "kind": "Concept",
+   "label": "label",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "LabelOfThoseOils",
+   "kind": "Concept",
+   "label": "label of those oils",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "LabellingOfParticulars",
+   "kind": "Concept",
+   "label": "labelling of particulars",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "LegalName",
+   "kind": "Concept",
+   "label": "legal name",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ListOfIngredients",
+   "kind": "Concept",
+   "label": "list of ingredients",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption",
+   "kind": "Concept",
+   "label": "maximum values for peroxide, wax content and ultraviolet absorption",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "MonthAndTheYearOfTheHarvest",
+   "kind": "Concept",
+   "label": "month and the year of the harvest",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "NameOfTheFood",
+   "kind": "Concept",
+   "label": "name of the food",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "NamesOfBrandsOrFirms",
+   "kind": "Concept",
+   "label": "names of brands or firms",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OptionalReservedTerms",
+   "kind": "Concept",
+   "label": "optional reserved terms",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PercentageOfAddedOils",
+   "kind": "Concept",
+   "label": "percentage of added oils",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff",
+   "kind": "Concept",
+   "label": "percentage of oil relative to the total net weight of the foodstuff",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PercentageOfSuchOilsInTheBlend",
+   "kind": "Concept",
+   "label": "percentage of such oils in the blend",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PlaceOfOrigin",
+   "kind": "Concept",
+   "label": "place of origin",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PrincipalFieldOfVision",
+   "kind": "Concept",
+   "label": "principal field of vision",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ProtectedDesignationOfOriginOrAProtectedGeographicalIndication",
+   "kind": "Concept",
+   "label": "protected designation of origin or a protected geographical indication",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ThirdCountry",
+   "kind": "Concept",
+   "label": "third country",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ExtraVirginOliveOilObtainedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcernedFromOlivesHarvestedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcerned",
+   "kind": "Concept",
+   "label": "‘(extra) virgin olive oil obtained in (the Union or the name of the Member State or third country concerned) from olives harvested in (the Union or the name of the Member State or third country concerned)’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "BlendOfOliveOilsNotOfEuropeanUnionOrigin",
+   "kind": "Concept",
+   "label": "‘blend of olive oils not of European Union origin’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "BlendOfOliveOilsOfEuropeanUnionOriginAndNotOfEuropeanUnionOrigin",
+   "kind": "Concept",
+   "label": "‘blend of olive oils of European Union origin and not of European Union origin’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "BlendOfOliveOilsOfEuropeanUnionOrigin",
+   "kind": "Concept",
+   "label": "‘blend of olive oils of European Union origin’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "ColdExtraction",
+   "kind": "Concept",
+   "label": "‘cold extraction’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "FirstColdPressing",
+   "kind": "Concept",
+   "label": "‘first cold pressing’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OilComprisingExclusivelyOilsObtainedByProcessingOlivePomaceAndOilsObtainedDirectlyFromOlives",
+   "kind": "Concept",
+   "label": "‘oil comprising exclusively oils obtained by processing olive pomace and oils obtained directly from olives’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OilComprisingExclusivelyOilsObtainedByTreatingTheProductObtainedAfterTheExtractionOfOliveOilAndOilsObtainedDirectlyFromOlives",
+   "kind": "Concept",
+   "label": "‘oil comprising exclusively oils obtained by treating the product obtained after the extraction of olive oil and oils obtained directly from olives’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OilComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives",
+   "kind": "Concept",
+   "label": "‘oil comprising exclusively olive oils that have undergone refining and oils obtained directly from olives’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans",
+   "kind": "Concept",
+   "label": "‘olive oil obtained directly from olives and solely by mechanical means’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OliveOil",
+   "kind": "Concept",
+   "label": "‘olive oil’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "OlivePomaceOil2",
+   "kind": "Concept",
+   "label": "‘olive-pomace oil’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "PercentageOfFats",
+   "kind": "Concept",
+   "label": "‘percentage of fats’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "BlendOfVegetableOilsOrTheSpecificNamesOfTheVegetableOilsConcernedAndOliveOil",
+   "kind": "Concept",
+   "label": "‘Blend of vegetable oils (or the specific names of the vegetable oils concerned) and olive oil’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans",
+   "kind": "Concept",
+   "label": "‘superior category olive oil obtained directly from olives and solely by mechanical means’",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "MemberStateOrTheUnion",
+   "kind": "Concept",
+   "label": "Member State or the Union",
+   "top_class": "LabelItem"
+  },
+  {
+   "id": "Ref_AnnexI",
+   "kind": "LegalReference",
+   "label": "Annex I",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_AnnexIPoint5OfCommissionImplementingRegu",
+   "kind": "LegalReference",
+   "label": "Annex I, point 5, of Commission Implementing Regulation (EU) 2022/2105",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_AnnexIIToThisRegulation",
+   "kind": "LegalReference",
+   "label": "Annex II to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_AnnexIIIToThisRegulation",
+   "kind": "LegalReference",
+   "label": "Annex III to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_AnnexIXToRegulationEUNo13082013",
+   "kind": "LegalReference",
+   "label": "Annex IX to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article1PointB",
+   "kind": "LegalReference",
+   "label": "Article 1, point (b)",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article1PointBInA",
+   "kind": "LegalReference",
+   "label": "Article 1, point (b), in a",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article1PointBOfThisRegulation",
+   "kind": "LegalReference",
+   "label": "Article 1, point (b), of this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article22PointLOfRegulationEUNo11692011",
+   "kind": "LegalReference",
+   "label": "Article 2(2), point (l), of Regulation (EU) No 1169/2011",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article22PointNOfRegulationEUNo11692011",
+   "kind": "LegalReference",
+   "label": "Article 2(2), point (n), of Regulation (EU) No 1169/2011",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article6",
+   "kind": "LegalReference",
+   "label": "Article 6",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article6OfCommissionImplementingRegulati",
+   "kind": "LegalReference",
+   "label": "Article 6 of Commission Implementing Regulation (EU) 2022/2105",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article61",
+   "kind": "LegalReference",
+   "label": "Article 6(1)",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article6PointFOfRegulationEUNo13082013",
+   "kind": "LegalReference",
+   "label": "Article 6, point (f), of Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article81",
+   "kind": "LegalReference",
+   "label": "Article 8(1)",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Article91PointFOfRegulationEUNo11692011",
+   "kind": "LegalReference",
+   "label": "Article 9(1), point (f), of Regulation (EU) No 1169/2011",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Articles1011And12",
+   "kind": "LegalReference",
+   "label": "Articles 10, 11 and 12",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Articles59To63OfRegulationEUNo9522013",
+   "kind": "LegalReference",
+   "label": "Articles 59 to 63 of Regulation (EU) No 952/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Articles6To9",
+   "kind": "LegalReference",
+   "label": "Articles 6 to 9",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_CommissionImplementingRegulationEU202221",
+   "kind": "LegalReference",
+   "label": "Commission Implementing Regulation (EU) 2022/2105",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_CouncilRegulationECNo4094",
+   "kind": "LegalReference",
+   "label": "Council Regulation (EC) No 40/94",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_CouncilRegulationsEECNo21368912AndEECNo1",
+   "kind": "LegalReference",
+   "label": "Council Regulations (EEC) No 2136/89 (12) and (EEC) No 1536/92 (13)",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_DelegatedRegulationEU20171183",
+   "kind": "LegalReference",
+   "label": "Delegated Regulation (EU) 2017/1183",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Directive89104",
+   "kind": "LegalReference",
+   "label": "Directive 89/104",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint1AOfAnnexVIIToRegulationEUN",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 1(a), of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 1(b), of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint1COfAnnexVIIToRegulationEUN",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 1(c), of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint2OfAnnexVIIToRegulationEUNo",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 2, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint3OfAnnexVIIToRegulationEUNo",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 3, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint4OfAnnexVIIToRegulationEUNo",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 4, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint5OfAnnexVIIToRegulationEUNo",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 5, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoint6OfAnnexVIIToRegulationEUNo",
+   "kind": "LegalReference",
+   "label": "Part VIII, point 6, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoints1To6OfAnnexVIIToRegulation",
+   "kind": "LegalReference",
+   "label": "Part VIII, points 1 to 6, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoints1AAndBAndPoints3And6OfAnne",
+   "kind": "LegalReference",
+   "label": "Part VIII, points 1(a) and (b) and points 3 and 6, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati",
+   "kind": "LegalReference",
+   "label": "Part VIII, points 1(a) and (b), of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_PartVIIIPoints3And6OfAnnexVIIToRegulatio",
+   "kind": "LegalReference",
+   "label": "Part VIII, points 3 and 6, of Annex VII to Regulation (EU) No 1308/2013",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_RegulationEECNo256891AndImplementingRegu",
+   "kind": "LegalReference",
+   "label": "Regulation (EEC) No 2568/91 and Implementing Regulation (EU) No 29/2012",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_RegulationEUNo11512012",
+   "kind": "LegalReference",
+   "label": "Regulation (EU) No 1151/2012",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_RegulationAndToCommissionImplementingReg",
+   "kind": "LegalReference",
+   "label": "Regulation and to Commission Implementing Regulation (EU) 2022/2105",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Paragraph1",
+   "kind": "LegalReference",
+   "label": "paragraph 1",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Paragraph3",
+   "kind": "LegalReference",
+   "label": "paragraph 3",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Paragraph3OfThisArticle",
+   "kind": "LegalReference",
+   "label": "paragraph 3 of this Article",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Paragraphs1And3OfThisArticle",
+   "kind": "LegalReference",
+   "label": "paragraphs 1 and 3 of this Article",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Paragraphs6And7",
+   "kind": "LegalReference",
+   "label": "paragraphs 6 and 7",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point1OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 1 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point2OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 2 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point3OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 3 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point4OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 4 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point5OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 5 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point6OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 6 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point7OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 7 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_Point8OfTablesAAndBOfAnnexIToThisRegulat",
+   "kind": "LegalReference",
+   "label": "point 8 of Tables A and B of Annex I to this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Ref_ThisRegulation",
+   "kind": "LegalReference",
+   "label": "this Regulation",
+   "top_class": "LegalReference"
+  },
+  {
+   "id": "Acidity",
+   "kind": "Concept",
+   "label": "Acidity (%)",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "FattyAcidEthylEstersMgKg",
+   "kind": "Concept",
+   "label": "Fatty acid ethyl esters (mg/kg)",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "FruityMedianMf",
+   "kind": "Concept",
+   "label": "Fruity median (Mf)",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "K232",
+   "kind": "Concept",
+   "label": "K232",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "K268OrK270",
+   "kind": "Concept",
+   "label": "K268 or K270",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "MedianOfDefectMd",
+   "kind": "Concept",
+   "label": "Median of defect (Md)",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "PeroxideValueMEqO2Kg",
+   "kind": "Concept",
+   "label": "Peroxide value (mEq O2/kg)",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "CharacteristicsOfOliveOils",
+   "kind": "Concept",
+   "label": "characteristics of olive oils",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "MonthOfTheExtractionOfTheOilFromTheOlives",
+   "kind": "Concept",
+   "label": "month of the extraction of the oil from the olives",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "ΔK",
+   "kind": "Concept",
+   "label": "ΔK",
+   "top_class": "QualityParameter"
+  },
+  {
+   "id": "ConsumptionInRestaurantsHospitalsCanteensAndOtherSimilarCollectiveEstablishments",
+   "kind": "Concept",
+   "label": "consumption in restaurants, hospitals, canteens and other similar collective establishments",
+   "top_class": "Process"
+  },
+  {
+   "id": "FirstMechanicalPressing",
+   "kind": "Concept",
+   "label": "first mechanical pressing",
+   "top_class": "Process"
+  },
+  {
+   "id": "HydraulicPresses",
+   "kind": "Concept",
+   "label": "hydraulic presses",
+   "top_class": "Process"
+  },
+  {
+   "id": "Marketing",
+   "kind": "Concept",
+   "label": "marketing",
+   "top_class": "Process"
+  },
+  {
+   "id": "MarketingOnTheirTerritory",
+   "kind": "Concept",
+   "label": "marketing on their territory",
+   "top_class": "Process"
+  },
+  {
+   "id": "MillWhereTheOilWasExtractedFromTheOlivesIsSituated",
+   "kind": "Concept",
+   "label": "mill where the oil was extracted from the olives is situated",
+   "top_class": "Process"
+  },
+  {
+   "id": "OlivesWereHarvested",
+   "kind": "Concept",
+   "label": "olives were harvested",
+   "top_class": "Process"
+  },
+  {
+   "id": "OpeningSystem",
+   "kind": "Concept",
+   "label": "opening system",
+   "top_class": "Process"
+  },
+  {
+   "id": "PercolationOrCentrifugationOfTheOlivePaste",
+   "kind": "Concept",
+   "label": "percolation or centrifugation of the olive paste",
+   "top_class": "Process"
+  },
+  {
+   "id": "Production",
+   "kind": "Concept",
+   "label": "production",
+   "top_class": "Process"
+  },
+  {
+   "id": "ProductionOnTheirTerritory",
+   "kind": "Concept",
+   "label": "production on their territory",
+   "top_class": "Process"
+  },
+  {
+   "id": "OtherFoodstuffs",
+   "kind": "Concept",
+   "label": "other foodstuffs",
+   "top_class": "Product"
+  },
+  {
+   "id": "BlendWithOtherVegetableOils",
+   "kind": "Concept",
+   "label": "blend with other vegetable oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "BlendsOfOliveOilAndOtherVegetableOils",
+   "kind": "Concept",
+   "label": "blends of olive oil and other vegetable oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "OliveOils",
+   "kind": "Concept",
+   "label": "olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "OlivePomaceOil",
+   "kind": "Concept",
+   "label": "olive-pomace oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "BlendsOfOliveOils",
+   "kind": "Concept",
+   "label": "blends of olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "LampanteOliveOil",
+   "kind": "Concept",
+   "label": "lampante olive oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "RefinedOliveOil",
+   "kind": "Concept",
+   "label": "refined olive oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "SolidFoodstuffsPreservedExclusivelyInOliveOil",
+   "kind": "Concept",
+   "label": "solid foodstuffs preserved exclusively in olive oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "VirginOliveOil",
+   "kind": "Concept",
+   "label": "virgin olive oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "CrudeOlivePomaceOil",
+   "kind": "Concept",
+   "label": "crude olive-pomace oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "RefinedOlivePomaceOil",
+   "kind": "Concept",
+   "label": "refined olive-pomace oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "BlendConcerned",
+   "kind": "Concept",
+   "label": "blend concerned",
+   "top_class": "Product"
+  },
+  {
+   "id": "Fats",
+   "kind": "Concept",
+   "label": "fats",
+   "top_class": "Product"
+  },
+  {
+   "id": "Foodstuff",
+   "kind": "Concept",
+   "label": "foodstuff",
+   "top_class": "Product"
+  },
+  {
+   "id": "Oils",
+   "kind": "Concept",
+   "label": "oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "SuchBlendsComingFromOtherCountries",
+   "kind": "Concept",
+   "label": "such blends coming from other countries",
+   "top_class": "Product"
+  },
+  {
+   "id": "SuchBlendsForMarketingInAnotherMemberStateOrForExportation",
+   "kind": "Concept",
+   "label": "such blends for marketing in another Member State or for exportation",
+   "top_class": "Product"
+  },
+  {
+   "id": "ExtraVirginAndVirginOliveOils",
+   "kind": "Concept",
+   "label": "extra virgin and virgin olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "ExtraVirginOliveOil",
+   "kind": "Concept",
+   "label": "extra virgin olive oil",
+   "top_class": "Product"
+  },
+  {
+   "id": "ExtraVirginOrVirginOliveOils",
+   "kind": "Concept",
+   "label": "extra virgin or virgin olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils",
+   "kind": "Concept",
+   "label": "olive oil composed of refined olive oil and virgin olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils",
+   "kind": "Concept",
+   "label": "olive oil composed of refined olive oils and virgin olive oils",
+   "top_class": "Product"
+  },
+  {
+   "id": "R001",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 2(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART2.1.lead",
+   "kind": "Provision",
+   "source": "Article 2(1)",
+   "text": "Olive oils which comply with the characteristics set out:"
+  },
+  {
+   "id": "R002",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 3(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART3.1",
+   "kind": "Provision",
+   "source": "Article 3(1)",
+   "text": "Only oils referred to in Article 1, point (b), may be part of blends of olive oil and other vegetable oils."
+  },
+  {
+   "id": "R003",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 3(2)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART3.2",
+   "kind": "Provision",
+   "source": "Article 3(2)",
+   "text": "Only oils referred to in Article 1, point (b), may be incorporated in other foodstuffs."
+  },
+  {
+   "id": "R004",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 3(3)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART3.3",
+   "kind": "Provision",
+   "source": "Article 3(3)",
+   "text": "Member States may prohibit the production on their territory of blends of olive oil and other vegetable oils referred to in paragraph 1 for internal consumption. However, they may not prohibit the marketing on their territory of such blends coming from other countries and they may not prohibit the production on their territory of such blends for marketing in another Member State or for exportation."
+  },
+  {
+   "id": "R005",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 5(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART5.1",
+   "kind": "Provision",
+   "source": "Article 5(1)",
+   "text": "The labelling of particulars referred to in Articles 6 to 9 shall be mandatory."
+  },
+  {
+   "id": "R006",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 5(3)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART5.3",
+   "kind": "Provision",
+   "source": "Article 5(3)",
+   "text": "The labelling of particulars referred to in Articles 10, 11 and 12 shall be voluntary."
+  },
+  {
+   "id": "R007",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "namely that they must be stored away from light and heat",
+   "source": "Article 7",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART7",
+   "kind": "Provision",
+   "source": "Article 7",
+   "text": "Information on the special storage conditions for oils referred to in Article 1, point (b), namely that they must be stored away from light and heat, shall appear on their containers or on the labels attached to them."
+  },
+  {
+   "id": "R008",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 8(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART8.1",
+   "kind": "Provision",
+   "source": "Article 8(1)",
+   "text": "For extra virgin olive oil and virgin olive oil, referred to in Part VIII, points 1(a) and (b), of Annex VII to Regulation (EU) No 1308/2013, the place of origin shall appear on the label."
+  },
+  {
+   "id": "R009",
+   "kind": "Rule",
+   "type": "PROHIBITION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 8(2)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART8.2",
+   "kind": "Provision",
+   "source": "Article 8(2)",
+   "text": "For the oils referred to in Part VIII, points 3 and 6, of Annex VII to Regulation (EU) No 1308/2013, no place of origin shall be displayed on the label."
+  },
+  {
+   "id": "R010",
+   "kind": "Rule",
+   "type": "PROHIBITION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 8(4)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART8.4",
+   "kind": "Provision",
+   "source": "Article 8(4)",
+   "text": "The names of brands or firms whose registration was applied for by 31 December 1998 in accordance with Directive 89/104/EEC or by 31 May 2002 in accordance with Council Regulation (EC) No 40/94 shall not be considered as the place of origin covered by this Regulation."
+  },
+  {
+   "id": "R011",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 9",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART9",
+   "kind": "Provision",
+   "source": "Article 9",
+   "text": "For oils referred to in Article 1, point (b), the label shall, where applicable, bear the alphanumeric identification of the packaging plant approved in accordance with Article 6 of Commission Implementing Regulation (EU) 2022/2105."
+  },
+  {
+   "id": "R012",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 10",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART10.lead",
+   "kind": "Provision",
+   "source": "Article 10",
+   "text": "The following conditions shall apply for the use of optional reserved terms within the meaning of Annex IX to Regulation (EU) No 1308/2013, which may appear on the label of oils referred to in Article 1, point (b), of this Regulation:"
+  },
+  {
+   "id": "R013",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 10, point (c)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART10.c",
+   "kind": "Provision",
+   "source": "Article 10, point (c)",
+   "text": "indications of organoleptic characteristics referring to taste or smell may appear only for extra virgin and virgin olive oils. Only the organoleptic characteristics as defined in Annex IX to Regulation (EU) No 1308/2013 may appear on the label and only if they are based on an assessment carried out following the method referred to in Annex I, point 5, of Commission Implementing Regulation (EU) 2022/2105. The definitions and ranges of results, which allow for indication of these organoleptic characteristics, are set out in Annex II to this Regulation;"
+  },
+  {
+   "id": "R014",
+   "kind": "Rule",
+   "type": "CONDITION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 10, point (d)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART10.d",
+   "kind": "Provision",
+   "source": "Article 10, point (d)",
+   "text": "the indication of the maximum acidity expected by the date of minimum durability referred to in Article 9(1), point (f), of Regulation (EU) No 1169/2011 may appear only if it is accompanied by an indication, in marking of the same size and in the same visual field, of the maximum values for peroxide, wax content and ultraviolet absorption, determined in accordance with Commission Implementing Regulation (EU) 2022/2105, expected by the same date."
+  },
+  {
+   "id": "R015",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 11(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART11.1",
+   "kind": "Provision",
+   "source": "Article 11(1)",
+   "text": "Only extra virgin olive oil and virgin olive oil, referred to in Part VIII, points 1(a) and (b), of Annex VII to Regulation (EU) No 1308/2013, may bear the indication of the harvesting year."
+  },
+  {
+   "id": "R016",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 11(1)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R017",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 11(3)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART11.3",
+   "kind": "Provision",
+   "source": "Article 11(3)",
+   "text": "Member States may decide that the harvesting year referred to in paragraph 1 shall be indicated on the label of olive oils referred to in that paragraph, of their domestic production, obtained from olives harvested on their territory and intended for their national markets only."
+  },
+  {
+   "id": "R018",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 12(2)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART12.2",
+   "kind": "Provision",
+   "source": "Article 12(2)",
+   "text": "The presence of oils referred to in Article 1, point (b), may be highlighted by images or graphics on the label of a blend referred to in paragraph 1 only where it accounts for more than 50 % of the blend concerned."
+  },
+  {
+   "id": "R019",
+   "kind": "Rule",
+   "type": "CONDITION",
+   "value": "more than 50 %",
+   "parameter": "",
+   "source": "Article 12(2)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R020",
+   "kind": "Rule",
+   "type": "PROHIBITION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 12(3)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART12.3",
+   "kind": "Provision",
+   "source": "Article 12(3)",
+   "text": "With the exception of solid foodstuffs preserved exclusively in olive oil, in particular the products referred to in Council Regulations (EEC) No 2136/89 (12) and (EEC) No 1536/92 (13), and where the presence of oils referred to in Article 1, point (b), of this Regulation is stated on the label elsewhere than in the list of ingredients, using words, images or graphics, the name of the food shall be directly followed by the percentage of oil relative to the total net weight of the foodstuff."
+  },
+  {
+   "id": "R021",
+   "kind": "Rule",
+   "type": "PROHIBITION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 12(3)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R022",
+   "kind": "Rule",
+   "type": "PERMISSION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 12(4)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART12.4",
+   "kind": "Provision",
+   "source": "Article 12(4)",
+   "text": "The percentage of added oils referred to in Article 1, point (b), relative to the total net weight of the foodstuff referred to in paragraph 3 of this Article may be replaced by the percentage of added oil relative to the total weight of fats, adding the words ‘percentage of fats’."
+  },
+  {
+   "id": "R023",
+   "kind": "Rule",
+   "type": "OBLIGATION",
+   "value": "",
+   "parameter": "",
+   "source": "Article 12(5)",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ART12.5",
+   "kind": "Provision",
+   "source": "Article 12(5)",
+   "text": "The descriptions referred to in Article 6(1) may be replaced by the words ‘olive oil’ on the label of products referred to in paragraphs 1 and 3 of this Article. However, where olive-pomace oil is present, the words ‘olive oil’ shall be replaced by the words ‘olive-pomace oil’."
+  },
+  {
+   "id": "R024",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,80",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.1",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 1",
+   "text": "Annex I, Table A, quality characteristics of extra virgin olive oil: Acidity (%) ≤ 0,80; Peroxide value (mEq O2/kg) ≤ 20,0; K232 ≤ 2,50; K268 or K270 ≤ 0,22; ΔK ≤ 0,01; Median of defect (Md) = 0,0; Fruity median (Mf) > 0,0; Fatty acid ethyl esters (mg/kg) ≤ 35."
+  },
+  {
+   "id": "R025",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 20,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R026",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 2,50",
+   "parameter": "K232",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R027",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,22",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R028",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,01",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R029",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "= 0,0",
+   "parameter": "Median of defect (Md)",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R030",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "> 0,0",
+   "parameter": "Fruity median (Mf)",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R031",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 35",
+   "parameter": "Fatty acid ethyl esters (mg/kg)",
+   "source": "Annex I, Table A, row 1",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R032",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 2,0",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.2",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 2",
+   "text": "Annex I, Table A, quality characteristics of virgin olive oil: Acidity (%) ≤ 2,0; Peroxide value (mEq O2/kg) ≤ 20,0; K232 ≤ 2,60; K268 or K270 ≤ 0,25; ΔK ≤ 0,01; Median of defect (Md) ≤ 3,5; Fruity median (Mf) > 0,0."
+  },
+  {
+   "id": "R033",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 20,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R034",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 2,60",
+   "parameter": "K232",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R035",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,25",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R036",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,01",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R037",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 3,5",
+   "parameter": "Median of defect (Md)",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R038",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "> 0,0",
+   "parameter": "Fruity median (Mf)",
+   "source": "Annex I, Table A, row 2",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R039",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "> 2,0",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 3",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.3",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 3",
+   "text": "Annex I, Table A, quality characteristics of lampante olive oil: Acidity (%) > 2,0; Median of defect (Md) > 3,5."
+  },
+  {
+   "id": "R040",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "> 3,5",
+   "parameter": "Median of defect (Md)",
+   "source": "Annex I, Table A, row 3",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R041",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,30",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 4",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.4",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 4",
+   "text": "Annex I, Table A, quality characteristics of refined olive oil: Acidity (%) ≤ 0,30; Peroxide value (mEq O2/kg) ≤ 5,0; K268 or K270 ≤ 1,25; ΔK ≤ 0,16."
+  },
+  {
+   "id": "R042",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 5,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 4",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R043",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 1,25",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 4",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R044",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,16",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 4",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R045",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 1,00",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 5",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.5",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 5",
+   "text": "Annex I, Table A, quality characteristics of olive oil composed of refined olive oil and virgin olive oils: Acidity (%) ≤ 1,00; Peroxide value (mEq O2/kg) ≤ 15,0; K268 or K270 ≤ 1,15; ΔK ≤ 0,15."
+  },
+  {
+   "id": "R046",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 15,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 5",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R047",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 1,15",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 5",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R048",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,15",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 5",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R049",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "no limits set",
+   "parameter": "",
+   "source": "Annex I, Table A, row 6",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.6",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 6",
+   "text": "Annex I, Table A, quality characteristics of crude olive-pomace oil: no limits set."
+  },
+  {
+   "id": "R050",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,30",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 7",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.7",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 7",
+   "text": "Annex I, Table A, quality characteristics of refined olive-pomace oil: Acidity (%) ≤ 0,30; Peroxide value (mEq O2/kg) ≤ 5,0; K268 or K270 ≤ 2,00; ΔK ≤ 0,20."
+  },
+  {
+   "id": "R051",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 5,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 7",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R052",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 2,00",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 7",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R053",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,20",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 7",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R054",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 1,00",
+   "parameter": "Acidity (%)",
+   "source": "Annex I, Table A, row 8",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "P_ANX1.A.8",
+   "kind": "Provision",
+   "source": "Annex I, Table A, row 8",
+   "text": "Annex I, Table A, quality characteristics of olive-pomace oil: Acidity (%) ≤ 1,00; Peroxide value (mEq O2/kg) ≤ 15,0; K268 or K270 ≤ 1,70; ΔK ≤ 0,18."
+  },
+  {
+   "id": "R055",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 15,0",
+   "parameter": "Peroxide value (mEq O2/kg)",
+   "source": "Annex I, Table A, row 8",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R056",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 1,70",
+   "parameter": "K268 or K270",
+   "source": "Annex I, Table A, row 8",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  },
+  {
+   "id": "R057",
+   "kind": "Rule",
+   "type": "LIMIT",
+   "value": "≤ 0,18",
+   "parameter": "ΔK",
+   "source": "Annex I, Table A, row 8",
+   "operator": "",
+   "numeric_value": "",
+   "unit": "",
+   "condition": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "MemberStates",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "FinalConsumer",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "Mill",
+   "type": "SUBCLASS_OF",
+   "target": "Actor"
+  },
+  {
+   "source": "InformationOnTheSpecialStorageConditions",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "MemberState",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "Union",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "AlphanumericIdentificationOfThePackagingPlant",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "CategoryOfOil",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "CharacteristicsSetOut",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "Container",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "DescriptionOfTheOils",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "GeographicalArea",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "HarvestingYear",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ImagesOrGraphics",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "InternalConsumption",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "Label",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "LabelOfThoseOils",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "LabellingOfParticulars",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "LegalName",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ListOfIngredients",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "MonthAndTheYearOfTheHarvest",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "NameOfTheFood",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "NamesOfBrandsOrFirms",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OptionalReservedTerms",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PercentageOfAddedOils",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PercentageOfSuchOilsInTheBlend",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PlaceOfOrigin",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PrincipalFieldOfVision",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ProtectedDesignationOfOriginOrAProtectedGeographicalIndication",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ThirdCountry",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ExtraVirginOliveOilObtainedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcernedFromOlivesHarvestedInTheUnionOrTheNameOfTheMemberStateOrThirdCountryConcerned",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "BlendOfOliveOilsNotOfEuropeanUnionOrigin",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "BlendOfOliveOilsOfEuropeanUnionOriginAndNotOfEuropeanUnionOrigin",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "BlendOfOliveOilsOfEuropeanUnionOrigin",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "ColdExtraction",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "FirstColdPressing",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OilComprisingExclusivelyOilsObtainedByProcessingOlivePomaceAndOilsObtainedDirectlyFromOlives",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OilComprisingExclusivelyOilsObtainedByTreatingTheProductObtainedAfterTheExtractionOfOliveOilAndOilsObtainedDirectlyFromOlives",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OilComprisingExclusivelyOliveOilsThatHaveUndergoneRefiningAndOilsObtainedDirectlyFromOlives",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "OlivePomaceOil2",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "PercentageOfFats",
+   "type": "SUBCLASS_OF",
+   "target": "LabelItem"
+  },
+  {
+   "source": "BlendOfVegetableOilsOrTheSpecificNamesOfTheVegetableOilsConcernedAndOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOil"
+  },
+  {
+   "source": "SuperiorCategoryOliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOilObtainedDirectlyFromOlivesAndSolelyByMechanicalMeans"
+  },
+  {
+   "source": "MemberStateOrTheUnion",
+   "type": "SUBCLASS_OF",
+   "target": "Union"
+  },
+  {
+   "source": "Acidity",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "FattyAcidEthylEstersMgKg",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "FruityMedianMf",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "K232",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "K268OrK270",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "MedianOfDefectMd",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "PeroxideValueMEqO2Kg",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "CharacteristicsOfOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "MonthOfTheExtractionOfTheOilFromTheOlives",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "ΔK",
+   "type": "SUBCLASS_OF",
+   "target": "QualityParameter"
+  },
+  {
+   "source": "ConsumptionInRestaurantsHospitalsCanteensAndOtherSimilarCollectiveEstablishments",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "FirstMechanicalPressing",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "HydraulicPresses",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "Marketing",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "MarketingOnTheirTerritory",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "MillWhereTheOilWasExtractedFromTheOlivesIsSituated",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "OlivesWereHarvested",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "OpeningSystem",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "PercolationOrCentrifugationOfTheOlivePaste",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "Production",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "ProductionOnTheirTerritory",
+   "type": "SUBCLASS_OF",
+   "target": "Process"
+  },
+  {
+   "source": "OtherFoodstuffs",
+   "type": "SUBCLASS_OF",
+   "target": "Foodstuff"
+  },
+  {
+   "source": "BlendWithOtherVegetableOils",
+   "type": "SUBCLASS_OF",
+   "target": "Oils"
+  },
+  {
+   "source": "BlendsOfOliveOilAndOtherVegetableOils",
+   "type": "SUBCLASS_OF",
+   "target": "Oils"
+  },
+  {
+   "source": "OliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "Oils"
+  },
+  {
+   "source": "OlivePomaceOil",
+   "type": "SUBCLASS_OF",
+   "target": "Oils"
+  },
+  {
+   "source": "BlendsOfOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOils"
+  },
+  {
+   "source": "LampanteOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOils"
+  },
+  {
+   "source": "RefinedOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOils"
+  },
+  {
+   "source": "SolidFoodstuffsPreservedExclusivelyInOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOils"
+  },
+  {
+   "source": "VirginOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "OliveOils"
+  },
+  {
+   "source": "CrudeOlivePomaceOil",
+   "type": "SUBCLASS_OF",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "RefinedOlivePomaceOil",
+   "type": "SUBCLASS_OF",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "BlendConcerned",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "Fats",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "Foodstuff",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "Oils",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "SuchBlendsComingFromOtherCountries",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "SuchBlendsForMarketingInAnotherMemberStateOrForExportation",
+   "type": "SUBCLASS_OF",
+   "target": "Product"
+  },
+  {
+   "source": "ExtraVirginAndVirginOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "ExtraVirginOliveOil",
+   "type": "SUBCLASS_OF",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "ExtraVirginOrVirginOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils",
+   "type": "SUBCLASS_OF",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R001",
+   "type": "APPLIES_TO",
+   "target": "OliveOils"
+  },
+  {
+   "source": "R001",
+   "type": "CONCERNS",
+   "target": "CharacteristicsSetOut"
+  },
+  {
+   "source": "R001",
+   "type": "DERIVED_FROM",
+   "target": "P_ART2.1.lead"
+  },
+  {
+   "source": "R002",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R002",
+   "type": "CONCERNS",
+   "target": "BlendsOfOliveOilAndOtherVegetableOils"
+  },
+  {
+   "source": "R002",
+   "type": "DERIVED_FROM",
+   "target": "P_ART3.1"
+  },
+  {
+   "source": "R003",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R003",
+   "type": "CONCERNS",
+   "target": "OtherFoodstuffs"
+  },
+  {
+   "source": "R003",
+   "type": "DERIVED_FROM",
+   "target": "P_ART3.2"
+  },
+  {
+   "source": "R004",
+   "type": "APPLIES_TO",
+   "target": "MemberStates"
+  },
+  {
+   "source": "R004",
+   "type": "CONCERNS",
+   "target": "ProductionOnTheirTerritory"
+  },
+  {
+   "source": "R004",
+   "type": "DERIVED_FROM",
+   "target": "P_ART3.3"
+  },
+  {
+   "source": "R005",
+   "type": "APPLIES_TO",
+   "target": "Ref_Articles6To9"
+  },
+  {
+   "source": "R005",
+   "type": "CONCERNS",
+   "target": "LabellingOfParticulars"
+  },
+  {
+   "source": "R005",
+   "type": "DERIVED_FROM",
+   "target": "P_ART5.1"
+  },
+  {
+   "source": "R006",
+   "type": "APPLIES_TO",
+   "target": "Ref_Articles1011And12"
+  },
+  {
+   "source": "R006",
+   "type": "CONCERNS",
+   "target": "LabellingOfParticulars"
+  },
+  {
+   "source": "R006",
+   "type": "DERIVED_FROM",
+   "target": "P_ART5.3"
+  },
+  {
+   "source": "R007",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R007",
+   "type": "CONCERNS",
+   "target": "InformationOnTheSpecialStorageConditions"
+  },
+  {
+   "source": "R007",
+   "type": "DERIVED_FROM",
+   "target": "P_ART7"
+  },
+  {
+   "source": "R008",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R008",
+   "type": "CONCERNS",
+   "target": "PlaceOfOrigin"
+  },
+  {
+   "source": "R008",
+   "type": "DERIVED_FROM",
+   "target": "P_ART8.1"
+  },
+  {
+   "source": "R009",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R009",
+   "type": "CONCERNS",
+   "target": "PlaceOfOrigin"
+  },
+  {
+   "source": "R009",
+   "type": "DERIVED_FROM",
+   "target": "P_ART8.2"
+  },
+  {
+   "source": "R010",
+   "type": "APPLIES_TO",
+   "target": "NamesOfBrandsOrFirms"
+  },
+  {
+   "source": "R010",
+   "type": "CONCERNS",
+   "target": "PlaceOfOrigin"
+  },
+  {
+   "source": "R010",
+   "type": "DERIVED_FROM",
+   "target": "P_ART8.4"
+  },
+  {
+   "source": "R011",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R011",
+   "type": "CONCERNS",
+   "target": "AlphanumericIdentificationOfThePackagingPlant"
+  },
+  {
+   "source": "R011",
+   "type": "DERIVED_FROM",
+   "target": "P_ART9"
+  },
+  {
+   "source": "R012",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R012",
+   "type": "CONCERNS",
+   "target": "OptionalReservedTerms"
+  },
+  {
+   "source": "R012",
+   "type": "DERIVED_FROM",
+   "target": "P_ART10.lead"
+  },
+  {
+   "source": "R013",
+   "type": "APPLIES_TO",
+   "target": "IndicationsOfOrganolepticCharacteristicsReferringToTasteOrSmell"
+  },
+  {
+   "source": "R013",
+   "type": "CONCERNS",
+   "target": "ExtraVirginAndVirginOliveOils"
+  },
+  {
+   "source": "R013",
+   "type": "DERIVED_FROM",
+   "target": "P_ART10.c"
+  },
+  {
+   "source": "R014",
+   "type": "APPLIES_TO",
+   "target": "IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability"
+  },
+  {
+   "source": "R014",
+   "type": "CONCERNS",
+   "target": "MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption"
+  },
+  {
+   "source": "R014",
+   "type": "DERIVED_FROM",
+   "target": "P_ART10.d"
+  },
+  {
+   "source": "R015",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R015",
+   "type": "CONCERNS",
+   "target": "HarvestingYear"
+  },
+  {
+   "source": "R015",
+   "type": "DERIVED_FROM",
+   "target": "P_ART11.1"
+  },
+  {
+   "source": "R016",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R016",
+   "type": "CONCERNS",
+   "target": "HarvestingYear"
+  },
+  {
+   "source": "R016",
+   "type": "DERIVED_FROM",
+   "target": "P_ART11.1"
+  },
+  {
+   "source": "R017",
+   "type": "APPLIES_TO",
+   "target": "MemberStates"
+  },
+  {
+   "source": "R017",
+   "type": "CONCERNS",
+   "target": "Production"
+  },
+  {
+   "source": "R017",
+   "type": "DERIVED_FROM",
+   "target": "P_ART11.3"
+  },
+  {
+   "source": "R018",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R018",
+   "type": "CONCERNS",
+   "target": "ImagesOrGraphics"
+  },
+  {
+   "source": "R018",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.2"
+  },
+  {
+   "source": "R019",
+   "type": "APPLIES_TO",
+   "target": "ImagesOrGraphics"
+  },
+  {
+   "source": "R019",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.2"
+  },
+  {
+   "source": "R020",
+   "type": "APPLIES_TO",
+   "target": "SolidFoodstuffsPreservedExclusivelyInOliveOil"
+  },
+  {
+   "source": "R020",
+   "type": "CONCERNS",
+   "target": "PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff"
+  },
+  {
+   "source": "R020",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.3"
+  },
+  {
+   "source": "R021",
+   "type": "APPLIES_TO",
+   "target": "Oils"
+  },
+  {
+   "source": "R021",
+   "type": "CONCERNS",
+   "target": "PercentageOfOilRelativeToTheTotalNetWeightOfTheFoodstuff"
+  },
+  {
+   "source": "R021",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.3"
+  },
+  {
+   "source": "R022",
+   "type": "APPLIES_TO",
+   "target": "Foodstuff"
+  },
+  {
+   "source": "R022",
+   "type": "CONCERNS",
+   "target": "PercentageOfFats"
+  },
+  {
+   "source": "R022",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.4"
+  },
+  {
+   "source": "R023",
+   "type": "APPLIES_TO",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "R023",
+   "type": "CONCERNS",
+   "target": "OlivePomaceOil2"
+  },
+  {
+   "source": "R023",
+   "type": "DERIVED_FROM",
+   "target": "P_ART12.5"
+  },
+  {
+   "source": "R024",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R024",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R025",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R025",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R026",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R026",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R027",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R027",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R028",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R028",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R029",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R029",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R030",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R030",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R031",
+   "type": "APPLIES_TO",
+   "target": "ExtraVirginOliveOil"
+  },
+  {
+   "source": "R031",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.1"
+  },
+  {
+   "source": "R032",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R032",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R033",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R033",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R034",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R034",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R035",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R035",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R036",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R036",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R037",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R037",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R038",
+   "type": "APPLIES_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "R038",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.2"
+  },
+  {
+   "source": "R039",
+   "type": "APPLIES_TO",
+   "target": "LampanteOliveOil"
+  },
+  {
+   "source": "R039",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.3"
+  },
+  {
+   "source": "R040",
+   "type": "APPLIES_TO",
+   "target": "LampanteOliveOil"
+  },
+  {
+   "source": "R040",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.3"
+  },
+  {
+   "source": "R041",
+   "type": "APPLIES_TO",
+   "target": "RefinedOliveOil"
+  },
+  {
+   "source": "R041",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.4"
+  },
+  {
+   "source": "R042",
+   "type": "APPLIES_TO",
+   "target": "RefinedOliveOil"
+  },
+  {
+   "source": "R042",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.4"
+  },
+  {
+   "source": "R043",
+   "type": "APPLIES_TO",
+   "target": "RefinedOliveOil"
+  },
+  {
+   "source": "R043",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.4"
+  },
+  {
+   "source": "R044",
+   "type": "APPLIES_TO",
+   "target": "RefinedOliveOil"
+  },
+  {
+   "source": "R044",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.4"
+  },
+  {
+   "source": "R045",
+   "type": "APPLIES_TO",
+   "target": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils"
+  },
+  {
+   "source": "R045",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.5"
+  },
+  {
+   "source": "R046",
+   "type": "APPLIES_TO",
+   "target": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils"
+  },
+  {
+   "source": "R046",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.5"
+  },
+  {
+   "source": "R047",
+   "type": "APPLIES_TO",
+   "target": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils"
+  },
+  {
+   "source": "R047",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.5"
+  },
+  {
+   "source": "R048",
+   "type": "APPLIES_TO",
+   "target": "OliveOilComposedOfRefinedOliveOilAndVirginOliveOils"
+  },
+  {
+   "source": "R048",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.5"
+  },
+  {
+   "source": "R049",
+   "type": "APPLIES_TO",
+   "target": "CrudeOlivePomaceOil"
+  },
+  {
+   "source": "R049",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.6"
+  },
+  {
+   "source": "R050",
+   "type": "APPLIES_TO",
+   "target": "RefinedOlivePomaceOil"
+  },
+  {
+   "source": "R050",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.7"
+  },
+  {
+   "source": "R051",
+   "type": "APPLIES_TO",
+   "target": "RefinedOlivePomaceOil"
+  },
+  {
+   "source": "R051",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.7"
+  },
+  {
+   "source": "R052",
+   "type": "APPLIES_TO",
+   "target": "RefinedOlivePomaceOil"
+  },
+  {
+   "source": "R052",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.7"
+  },
+  {
+   "source": "R053",
+   "type": "APPLIES_TO",
+   "target": "RefinedOlivePomaceOil"
+  },
+  {
+   "source": "R053",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.7"
+  },
+  {
+   "source": "R054",
+   "type": "APPLIES_TO",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "R054",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.8"
+  },
+  {
+   "source": "R055",
+   "type": "APPLIES_TO",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "R055",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.8"
+  },
+  {
+   "source": "R056",
+   "type": "APPLIES_TO",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "R056",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.8"
+  },
+  {
+   "source": "R057",
+   "type": "APPLIES_TO",
+   "target": "OlivePomaceOil"
+  },
+  {
+   "source": "R057",
+   "type": "DERIVED_FROM",
+   "target": "P_ANX1.A.8"
+  },
+  {
+   "source": "OliveOils",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoints1To6OfAnnexVIIToRegulation"
+  },
+  {
+   "source": "OliveOils",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoints1AAndBAndPoints3And6OfAnne"
+  },
+  {
+   "source": "ExtraVirginOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_Point1OfTablesAAndBOfAnnexIToThisRegulat"
+  },
+  {
+   "source": "ExtraVirginOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint1AOfAnnexVIIToRegulationEUN"
+  },
+  {
+   "source": "Ref_Point2OfTablesAAndBOfAnnexIToThisRegulat",
+   "type": "REFERS_TO",
+   "target": "VirginOliveOil"
+  },
+  {
+   "source": "Ref_Point2OfTablesAAndBOfAnnexIToThisRegulat",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN"
+  },
+  {
+   "source": "VirginOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint1BOfAnnexVIIToRegulationEUN"
+  },
+  {
+   "source": "Ref_Point3OfTablesAAndBOfAnnexIToThisRegulat",
+   "type": "REFERS_TO",
+   "target": "LampanteOliveOil"
+  },
+  {
+   "source": "LampanteOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint1COfAnnexVIIToRegulationEUN"
+  },
+  {
+   "source": "RefinedOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_Point4OfTablesAAndBOfAnnexIToThisRegulat"
+  },
+  {
+   "source": "RefinedOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint2OfAnnexVIIToRegulationEUNo"
+  },
+  {
+   "source": "OliveOilComposedOfRefinedOliveOilsAndVirginOliveOils",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint3OfAnnexVIIToRegulationEUNo"
+  },
+  {
+   "source": "CrudeOlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_Point6OfTablesAAndBOfAnnexIToThisRegulat"
+  },
+  {
+   "source": "CrudeOlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint4OfAnnexVIIToRegulationEUNo"
+  },
+  {
+   "source": "RefinedOlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_Point7OfTablesAAndBOfAnnexIToThisRegulat"
+  },
+  {
+   "source": "RefinedOlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint5OfAnnexVIIToRegulationEUNo"
+  },
+  {
+   "source": "OlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_Point8OfTablesAAndBOfAnnexIToThisRegulat"
+  },
+  {
+   "source": "OlivePomaceOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoint6OfAnnexVIIToRegulationEUNo"
+  },
+  {
+   "source": "CharacteristicsOfOliveOils",
+   "type": "REFERS_TO",
+   "target": "Ref_AnnexI"
+  },
+  {
+   "source": "CharacteristicsOfOliveOils",
+   "type": "REFERS_TO",
+   "target": "Ref_CommissionImplementingRegulationEU202221"
+  },
+  {
+   "source": "Oils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article1PointB"
+  },
+  {
+   "source": "BlendsOfOliveOilAndOtherVegetableOils",
+   "type": "REFERS_TO",
+   "target": "Ref_Paragraph1"
+  },
+  {
+   "source": "LabellingOfParticulars",
+   "type": "REFERS_TO",
+   "target": "Ref_Articles6To9"
+  },
+  {
+   "source": "LegalName",
+   "type": "REFERS_TO",
+   "target": "Ref_Article61"
+  },
+  {
+   "source": "PlaceOfOrigin",
+   "type": "REFERS_TO",
+   "target": "Ref_Article81"
+  },
+  {
+   "source": "PrincipalFieldOfVision",
+   "type": "REFERS_TO",
+   "target": "Ref_Article22PointLOfRegulationEUNo11692011"
+  },
+  {
+   "source": "LabellingOfParticulars",
+   "type": "REFERS_TO",
+   "target": "Ref_Articles1011And12"
+  },
+  {
+   "source": "DescriptionOfTheOils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article1PointB"
+  },
+  {
+   "source": "DescriptionOfTheOils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article22PointNOfRegulationEUNo11692011"
+  },
+  {
+   "source": "ExtraVirginOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati"
+  },
+  {
+   "source": "VirginOliveOil",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoints1AAndBOfAnnexVIIToRegulati"
+  },
+  {
+   "source": "Oils",
+   "type": "REFERS_TO",
+   "target": "Ref_PartVIIIPoints3And6OfAnnexVIIToRegulatio"
+  },
+  {
+   "source": "PlaceOfOrigin",
+   "type": "REFERS_TO",
+   "target": "Ref_Paragraph1"
+  },
+  {
+   "source": "ProtectedDesignationOfOriginOrAProtectedGeographicalIndication",
+   "type": "REFERS_TO",
+   "target": "Ref_RegulationEUNo11512012"
+  },
+  {
+   "source": "PlaceOfOrigin",
+   "type": "REFERS_TO",
+   "target": "Ref_Articles59To63OfRegulationEUNo9522013"
+  },
+  {
+   "source": "Oils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article1PointBOfThisRegulation"
+  },
+  {
+   "source": "OptionalReservedTerms",
+   "type": "REFERS_TO",
+   "target": "Ref_AnnexIXToRegulationEUNo13082013"
+  },
+  {
+   "source": "MaximumValuesForPeroxideWaxContentAndUltravioletAbsorption",
+   "type": "REFERS_TO",
+   "target": "Ref_CommissionImplementingRegulationEU202221"
+  },
+  {
+   "source": "IndicationOfTheMaximumAcidityExpectedByTheDateOfMinimumDurability",
+   "type": "REFERS_TO",
+   "target": "Ref_Article91PointFOfRegulationEUNo11692011"
+  },
+  {
+   "source": "HarvestingYear",
+   "type": "REFERS_TO",
+   "target": "MonthAndTheYearOfTheHarvest"
+  },
+  {
+   "source": "Oils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article1PointBInA"
+  },
+  {
+   "source": "PercentageOfAddedOils",
+   "type": "REFERS_TO",
+   "target": "Ref_Article1PointB"
+  },
+  {
+   "source": "Foodstuff",
+   "type": "REFERS_TO",
+   "target": "Ref_Paragraph3OfThisArticle"
+  }
+ ]
+}
